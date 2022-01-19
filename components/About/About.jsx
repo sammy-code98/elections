@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="grid grid-cols-2 justify-items-center px-10 mt-32">
+    <section className="grid grid-cols-2 justify-items-center px-10 mt-32" id="about">
       <div>
         <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={200} />
       </div>
