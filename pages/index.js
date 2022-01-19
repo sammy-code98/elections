@@ -1,5 +1,6 @@
 import Layout from "../components/Layout/Layout";
 import Banner from "../components/Banner"
+import Register from "../components/Registration/Register";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <Layout>
       <main className="mb-10">
         <Banner/>
+        <Register/>
       </main>
       <footer>
         <a
