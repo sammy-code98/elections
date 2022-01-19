@@ -1,8 +1,9 @@
 import Layout from "../components/Layout/Layout";
 import Banner from "../components/Banner"
 import Register from "../components/Registration/Register";
-import Image from "next/image";
 import WhatsappGroup from "../components/Groups/WhatsappGroup";
+import About from "../components/About/About"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Banner/>
         <Register/>
         <WhatsappGroup/>
+        <About/>
       </main>
       <footer>
         <a
