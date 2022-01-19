@@ -4,7 +4,7 @@ export default function Register() {
       <div className="flex flex-row justify-around">
         <div>
           <p className="text-center text-lg font-light">Register to</p>
-          <p className="text-center text-3xl">Become a student Ambassador</p>
+          <p className="text-center text-3xl">Become an  Ambassador</p>
           <div className="flex justify-center m-4">
             <button className="bg-sky-500 text-white p-2 rounded-md shadow-md  cursor-pointer">
               Register Now
