@@ -32,7 +32,7 @@ export default function About() {
 
        
         <div className="flex justify-center m-4">
-        <button className="bg-sky-500 text-white p-2 rounded-md shadow-md  cursor-pointer">
+        <button className="bg-sky-500 text-white p-2 rounded-md shadow-md  cursor-pointer focus:outline-none">
           Read more
         </button>
         </div>
