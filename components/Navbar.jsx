@@ -7,7 +7,7 @@ export default function Navbar() {
   };
   return (
     <div>
-      <nav className="flex  items-center flex-wrap bg-white p-3">
+      <nav className="flex  items-center flex-wrap bg-white p-3 w-full fixed">
         <Link href="/">
           <a className="inline-flex  items-center p-2 mr-4">
             <svg
