@@ -43,7 +43,7 @@ export default function Awards() {
           visualParts={[
             {
               percentage: "40%",
-              color: "tan",
+              color: "green",
             },
           ]}
         />
