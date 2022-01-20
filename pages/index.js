@@ -4,6 +4,7 @@ import Register from "../components/Registration/Register";
 import WhatsappGroup from "../components/Groups/WhatsappGroup";
 import About from "../components/About/About"
 import Awards from "../components/Awards/Awards";
+import Mission from "../components/Mission";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <WhatsappGroup/>
         <About/>
         <Awards/>
+        <Mission/>
       </main>
       <footer>
         <a
