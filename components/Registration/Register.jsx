@@ -1,7 +1,7 @@
 export default function Register() {
   return (
-    <div className="mt-24">
-      <div className="grid grid-cols-2 justify-items-center px-10">
+    <div className="container mx-6 mt-24 md:mx-auto">
+      <div className="md:grid md:grid-cols-2 justify-items-center px-10">
         <div>
           <p className="text-center text-lg font-light">Register to</p>
           <p className="text-center text-3xl">Become an  Ambassador</p>

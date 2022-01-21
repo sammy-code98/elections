@@ -28,7 +28,7 @@ export default function About() {
   }
   return (
     <section
-      className="grid grid-cols-2 justify-items-center px-10 mt-32"
+      className="md:grid md:grid-cols-2  md:mx-auto justify-items-center px-10 mt-32 container mx-8"
       id="about"
     >
       <div>
