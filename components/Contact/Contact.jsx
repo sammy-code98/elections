@@ -1,12 +1,12 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import Form from "./Form"
+import Form from "./Form";
 
 export default function Contact() {
   return (
     <section
       id="contact"
-      className="grid grid-cols-2 gap-6 px-32 justify-center	 h-96  mt-48"
+      className="grid grid-cols-2 gap-6 px-32 justify-center	 h-full  mt-48"
     >
       <div>
         <div className="text-center text-3xl">Get in Touch </div>
@@ -26,7 +26,7 @@ export default function Contact() {
         </div>
       </div>
       <div>
-        <Form/>
+        <Form />
       </div>
     </section>
   );
