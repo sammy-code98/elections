@@ -5,6 +5,7 @@ import WhatsappGroup from "../components/Groups/WhatsappGroup";
 import About from "../components/About/About"
 import Awards from "../components/Awards/Awards";
 import Mission from "../components/Mission";
+import Contact from "../components/Contact/Contact"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <About/>
         <Awards/>
         <Mission/>
+        <Contact/>
       </main>
     </Layout>
   );
