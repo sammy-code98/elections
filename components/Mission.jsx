@@ -1,13 +1,13 @@
 export default function Mission() {
   return (
-    <section className="mt-32" id="mission">
+    <section className="container mx-8 mt-32 md:mx-auto" id="mission">
       <div className="text-center text-sm text-gray-400 ">
         PRESIDENTIAL CAMPAIGN SUPPORT COMMITTEE – MISSION STATEMENT
       </div>
       <div className="text-center text-2xl mt-2">BELLO AMBASSADORS NETWORK</div>
 
-      <div className="grid grid-cols-2 gap-8 justify-items-center px-14 mt-12">
-        <div className="w-full bg-blue-500 text-white rounded-md shadow-lg p-8">
+      <div className="md:grid md:grid-cols-2 md:gap-8 justify-items-center md:px-14 mt-12">
+        <div className="w-full bg-blue-500 text-white rounded-md shadow-lg  mb-8 p-8">
           <ul className="list-disc list-inside">
             <li>
               Coordinating communication between Yahaya Bello and the masses.
@@ -28,7 +28,7 @@ export default function Mission() {
             </li>
           </ul>
         </div>
-        <div className="w-full bg-blue-500 text-white rounded-md shadow-lg p-8">
+        <div className="w-full bg-blue-500 text-white rounded-md shadow-lg mb-8 p-8">
           <ul className="list-disc list-inside">
             <li>
               Coordinating communication between Yahaya Bello and the masses.
