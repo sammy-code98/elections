@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="grid grid-cols-2 gap-6 px-32 justify-center	 h-full  mt-48"
+      className="md:grid md:grid-cols-2 md:gap-12 md:px-32  justify-center ml-14	 h-full  mt-48"
     >
       <div>
         <div className="text-center text-3xl">Get in Touch </div>
