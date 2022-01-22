@@ -14,7 +14,7 @@ export default function WhatsappGroup() {
             key={locate.id}
             className="hover:bg-sky-500  hover:text-white text-green-500 p-2 rounded-md shadow-md  cursor-pointer focus:outline-none"
           >
-            <Link href={`${locate.link}`} target="_blank">
+            <Link href={`https://chat.whatsapp.com/${locate.link}`} target="_blank">
               {locate.name}
             </Link>
           </button>
