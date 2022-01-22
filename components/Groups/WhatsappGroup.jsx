@@ -1,4 +1,5 @@
 import { location } from "./state-data";
+import Link from "next/link";
 export default function WhatsappGroup() {
   return (
     <div className="container mx-8 mt-24 md:mx-auto">
@@ -10,10 +11,12 @@ export default function WhatsappGroup() {
       <div className="mt-6 grid grid-cols-3  mx-4 px-12 md:grid md:grid-cols-6 gap-4 md:mx-8 md:px-32">
         {location.map((locate) => (
           <button
-            className="hover:bg-sky-500  hover:text-white text-green-500 p-2 rounded-md shadow-md  cursor-pointer focus:outline-none"
             key={locate.id}
+            className="hover:bg-sky-500  hover:text-white text-green-500 p-2 rounded-md shadow-md  cursor-pointer focus:outline-none"
           >
-            {locate.name}
+            <Link href={`${locate.link}`} target="_blank">
+              {locate.name}
+            </Link>
           </button>
         ))}
       </div>
