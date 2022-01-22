@@ -35,7 +35,7 @@ export const location = [
   { id: 34, name: "Taraba" },
   { id: 35, name: "Yobe" },
   { id: 36, name: "Zamfara" },
-  { id: 35, name: "Abuja" },
+  { id: 37, name: "Abuja" },
 
 
 
