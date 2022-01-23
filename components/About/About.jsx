@@ -7,7 +7,7 @@ export default function About() {
 
   return (
     <section
-      className="md:grid md:grid-cols-2  md:mx-auto justify-items-center px-10 mt-32 container mx-8"
+      className="grid  grid-cols-1rid md:grid-cols-2  md:mx-auto justify-items-center container"
       id="about"
     >
       <div>
@@ -16,18 +16,18 @@ export default function About() {
       <div>
         <div className="text-3xl font-medium">About</div>
         <div className="p-2">
-          <p className="leading-relaxed text-base text-light mb-2 text-gray-400">
+          <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
             {readMore
               ? aboutText
               : `${aboutText.substring(0, 400) + " " + " ..."}`}
           </p>
           <div className="flex justify-center m-4">
-            <button
+            <div
               onClick={() => setReadMore(!readMore)}
-              className="bg-sky-500 text-white p-2 rounded-md shadow-md  cursor-pointer focus:outline-none"
+              className="text-green-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-green-50"
             >
               {readMore ? "Read Less" : "Read More"}
-            </button>
+            </div>
           </div>
         </div>
       </div>

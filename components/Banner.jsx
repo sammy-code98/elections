@@ -1,22 +1,24 @@
+/* eslint-disable @next/next/no-img-element */
 export default function Banner() {
   return (
-    <div className="flex flex-row items-center w-full">
+    <div className="relative flex flex-row items-center w-full" style={{
+      height: "700px",
+    }}>
+
+      <img src="https://ban2023.org/images/banner.jpg" alt="banner"  className="w-full h-full"/>
+
+      <div className="absolute top-0 left-0 h-full w-full bg-black opacity-40 "></div>
+
       <div
-      className="brightness-50 mt-4"
-        style={{
-          backgroundImage: `url(https://ban2023.org/images/banner.jpg)`,
-          height: "700px",
-          width: "100%",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
+        className="mt-4 absolute top-0 h-full w-full"
       >
-        <div className="text-6xl mx-6  text-left mt-56 p-3 uppercase ">
+        <div className="text-6xl mx-6  text-left mt-56 p-3 text-white ">
           <div>Bello</div>
           <div>Ambassadors</div>
           <div>Network</div>
         </div>
       </div>
+
     </div>
   );
 }

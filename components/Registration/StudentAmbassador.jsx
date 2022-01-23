@@ -4,7 +4,7 @@ function StudentAmbassador() {
   return <div>
        <form>
         <div className="bg-gray-lighter shadow-lg h-full rounded-md w-full flex flex-col-1">
-          <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+          <div className="px-2">
             <div className="bg-white px-6 py-8  mt-2 text-black w-full">
               <input
                 type="text"

@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="container">{children}</div>
+      <div className="">{children}</div>
       <Footer />
     </div>
   );

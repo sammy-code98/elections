@@ -1,12 +1,12 @@
 export default function Mission() {
   return (
-    <section className="container mx-8 mt-32 md:mx-auto" id="mission">
+    <section className="container md:mx-auto" id="mission">
       <div className="text-center text-sm text-gray-400 ">
         PRESIDENTIAL CAMPAIGN SUPPORT COMMITTEE – MISSION STATEMENT
       </div>
       <div className="text-center text-2xl mt-2">BELLO AMBASSADORS NETWORK</div>
 
-      <div className="md:grid md:grid-cols-2 md:gap-8 justify-items-center md:px-14 mt-12">
+      <div className="grid  grid-cols-1rid md:grid-cols-2 md:gap-8 justify-items-center md:px-14 mt-12">
         <div className="w-full bg-blue-500 text-white rounded-md shadow-lg  mb-8 p-8">
           <ul className="list-disc list-inside">
             <li>

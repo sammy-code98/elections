@@ -10,7 +10,7 @@ import Contact from "../components/Contact/Contact"
 export default function Home() {
   return (
     <Layout>
-      <main className="mb-10" id="home">
+      <main  id="home">
         <Banner/>
         <Register/>
         <WhatsappGroup/>
