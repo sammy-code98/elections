@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Ambassador from "./Ambassador";
+import StudentAmbassador from "./StudentAmbassador";
 import Modal from "react-modal";
 const customStyles = {
   content: {
@@ -44,7 +45,7 @@ export default function Register() {
               onAfterOpen={afterOpenModal}
               onRequestClose={closeModal}
               style={customStyles}
-              contentLabel="Ambassord form"
+              contentLabel="Ambassador form"
             >
               <span ref={(_subtitle) => (subtitle = _subtitle)}></span>
               <Ambassador />
@@ -55,9 +56,22 @@ export default function Register() {
           <p className="text-center text-lg font-light">Want to</p>
           <p className="text-center text-3xl">Become a student Ambassador?</p>
           <div className="flex justify-center m-4">
-            <button className="bg-sky-500 text-white p-2 rounded-md shadow-md  cursor-pointer focus:outline-none">
+            <button
+              onClick={openModal}
+              className="bg-sky-500 text-white p-2 rounded-md shadow-md  cursor-pointer focus:outline-none"
+            >
               Register Here
             </button>
+            <Modal
+              isOpen={modalIsOpen}
+              onAfterOpen={afterOpenModal}
+              onRequestClose={closeModal}
+              style={customStyles}
+              contentLabel="Ambassador form"
+            >
+              <span ref={(_subtitle) => (subtitle = _subtitle)}></span>
+              <StudentAmbassador />
+            </Modal>
           </div>
         </div>
       </div>
