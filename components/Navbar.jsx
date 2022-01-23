@@ -1,4 +1,5 @@
-import Link from "next/link";
+// import Link from "next/link";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
 export default function Navbar() {
   const [active, setActive] = useState(false);
@@ -48,25 +49,53 @@ export default function Navbar() {
           } w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center    flex flex-col lg:h-auto">
-            <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2  rounded text-center text-blue-300 font-bold items-center justify-center hover:bg-green-600 hover:text-white ">
-                Home
-              </a>
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              isDynamic={true}
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-center text-blue-300 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+            >
+              Home
             </Link>
-            <Link href="/#about">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-center text-blue-300 font-bold items-center justify-center hover:bg-green-600 hover:text-white">
-                About
-              </a>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              isDynamic={true}
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-center text-blue-300 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+            >
+              About
             </Link>
-            <Link href="/#mission">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  text-center text-blue-300 font-bold items-center justify-center hover:bg-green-600 hover:text-white">
-                Mission
-              </a>
+            <Link
+              activeClass="active"
+              to="mission"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              isDynamic={true}
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-center text-blue-300 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+            >
+              Mission
             </Link>
-            <Link href="/#contact">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-center text-blue-300 font-bold items-center justify-center hover:bg-green-600 hover:text-white">
-                Contact
-              </a>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              isDynamic={true}
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-center text-blue-300 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+            >
+              Contact
             </Link>
           </div>
         </div>
