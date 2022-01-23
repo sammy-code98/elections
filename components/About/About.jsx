@@ -20,7 +20,7 @@ export default function About() {
         />
       </div>
       <div>
-        <div className="text-3xl font-medium">About</div>
+        <div className="text-3xl text-gray-800 font-medium">About</div>
         <div className="p-2">
           <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
             {readMore

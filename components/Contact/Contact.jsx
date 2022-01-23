@@ -6,21 +6,21 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="grid  grid-cols-1rid md:grid-cols-2 md:gap-12 md:px-32  justify-center ml-14	 h-full  mt-48"
+      className="grid  grid-cols-1 md:grid-cols-2 md:gap-12 md:px-32  justify-center 	 h-full  mt-48"
     >
       <div>
-        <div className="text-center text-3xl xl:text-5xl">Get in Touch </div>
+        <div className="text-center text-gray-800 text-3xl xl:text-5xl">Get in Touch </div>
         <div className="text-justify tracking-wide m-4 text-gray-800">
           Fill up the form and our Team will get back to you within 24 hours{" "}
         </div>
         <div className="mt-12">
-          <div className="flex m-4 text-gray-400">
+          <div className="flex m-4 text-gray-500">
             <FaPhoneAlt className="mx-2 mt-1" /> +234 344 2222 333
           </div>
-          <div className="flex m-4 text-gray-400">
+          <div className="flex m-4 text-gray-500">
             <FaEnvelope className="mx-2 mt-1" /> elections@gmail.com
           </div>
-          <div className="flex m-4 text-gray-400">
+          <div className="flex m-4 text-gray-500">
             <FaMapMarkerAlt className="mx-2 mt-1" /> No 30 wuse complex Abuja
           </div>
         </div>
