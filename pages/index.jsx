@@ -10,14 +10,17 @@ import Contact from "../components/Contact/Contact"
 export default function Home() {
   return (
     <Layout>
-      <main  id="home">
+      <main   id="home">
         <Banner/>
+        <div className="container">
         <Register/>
         <WhatsappGroup/>
         <About/>
         <Awards/>
         <Mission/>
         <Contact/>
+        </div>
+        
       </main>
     </Layout>
   );
