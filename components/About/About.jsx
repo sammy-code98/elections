@@ -7,11 +7,17 @@ export default function About() {
 
   return (
     <section
-      className="grid  grid-cols-1rid md:grid-cols-2  md:mx-auto justify-items-center container"
+      className="grid  grid-cols-1 md:grid-cols-2 mt-44 md:mx-auto justify-items-center"
       id="about"
     >
       <div>
-        <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={200} />
+        <Image
+          src="/banner2.jpeg"
+          alt="About Image"
+          width={500}
+          height={300}
+          className="rounded"
+        />
       </div>
       <div>
         <div className="text-3xl font-medium">About</div>
