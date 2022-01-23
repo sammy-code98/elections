@@ -34,7 +34,7 @@ export default function StudentRegister() {
       </div>
       <div className="mt-12">
         <p className="text-center text-lg font-light">Want to</p>
-        <p className="text-center text-3xl">Become a Student Ambassador?</p>
+        <p className="text-3xl">Become a Student Ambassador?</p>
         <div className="flex justify-center m-4">
           <button
             onClick={openModal}
