@@ -9,7 +9,9 @@ export default function Contact() {
       className="grid  grid-cols-1 md:grid-cols-2 md:gap-12 md:px-32  justify-center 	 h-full  mt-48"
     >
       <div>
-        <div className="text-center text-gray-800 text-3xl xl:text-5xl">Get in Touch </div>
+        <div className="text-center text-gray-800 text-3xl xl:text-5xl">
+          Get in Touch{" "}
+        </div>
         <div className="text-justify tracking-wide m-4 text-gray-800">
           Fill up the form and our Team will get back to you within 24 hours{" "}
         </div>
