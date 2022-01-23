@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Ambassador() {
+export default function AmbassadorForm() {
   return (
     <div>
       <form>
