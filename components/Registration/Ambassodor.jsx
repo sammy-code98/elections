@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import Modal from "react-modal";
-import AmbassadorForm from "./AmbassadorForm";
+import AmbassadorForm from "./RegistationForms/AmbassadorForm";
 const customStyles = {
     content: {
       top: "50%",
@@ -27,7 +28,7 @@ export default function AmbassadorRegister() {
       setIsOpen(false);
     }
   return (
-    <div className="grid  grid-cols-1 md:grid-cols-2 mt-44 md:mx-auto justify-items-center">
+    <div className="grid  grid-cols-1 md:grid-cols-2 mt-4 md:mx-auto items-center md:px-24">
         <div>
           <p className="text-center text-lg font-light">Register to</p>
           <p className="text-center text-3xl">Become an Ambassador</p>
@@ -50,8 +51,9 @@ export default function AmbassadorRegister() {
             </Modal>
           </div>
         </div>
-        <div>heheh</div>
-
+        <div>
+        <Image src="/ambassador.svg" alt="Student Ambassador Image" width={500} height={400} />
+      </div>
     </div>
   );
 }

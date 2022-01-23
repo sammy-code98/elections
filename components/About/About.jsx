@@ -7,7 +7,7 @@ export default function About() {
 
   return (
     <section
-      className="grid  grid-cols-1 md:grid-cols-2 mt-44 md:mx-auto justify-items-center"
+      className="grid grid-cols-1 md:grid-cols-2 mt-44 md:mx-auto justify-items-center"
       id="about"
     >
       <div>
