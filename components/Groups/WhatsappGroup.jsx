@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function WhatsappGroup() {
   return (
     <div className="mt-44">
-      <div className="text-center text-gray-800 text-3xl">Join our Whatsapp Group</div>
+      <div className="text-center text-gray-800 text-3xl">
+        Join our Whatsapp Group
+      </div>
       <div className="text-center  text-gray-400 mt-2 text-base">
         Click on your state to join the whatsapp group to keep in touch with
         fellow Ambassadors in your state
@@ -14,8 +16,8 @@ export default function WhatsappGroup() {
             key={locate.id}
             className="hover:bg-green-600  hover:text-white text-green-600 p-2 rounded-md shadow-md  cursor-pointer focus:outline-none"
           >
-            <Link href={`https://chat.whatsapp.com/${locate.link}`} target="_blank">
-              {locate.name}
+            <Link href={`https://chat.whatsapp.com/${locate.link}`}>
+              <a target="_blank">{locate.name}</a>
             </Link>
           </button>
         ))}
