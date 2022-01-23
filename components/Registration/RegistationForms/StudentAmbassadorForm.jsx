@@ -79,7 +79,7 @@ function StudentAmbassador() {
               </select>
               <button
                 type="submit"
-                className="w-full text-center py-3 rounded bg-blue-600 text-white hover:bg-green-dark focus:outline-none my-1"
+                className="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-white hover:text-green-600 focus:outline-none my-1"
               >
                 Register
               </button>

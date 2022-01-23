@@ -1,5 +1,5 @@
 export const location = [
-  { id: 1, name: "Abia", link: 'Br9Qd6IZD9c62zzApDRwqk' },
+  { id: 1, name: "Abia", link:'Br9Qd6IZD9c62zzApDRwqk' },
   { id: 2, name: "Adamawa", link: 'Br9Qd6IZD9c62zzApDRwqk' },
   { id: 3, name: "Akwa Ibom", link: 'Br9Qd6IZD9c62zzApDRwqk' },
   { id: 4, name: "Anambra", link: 'Br9Qd6IZD9c62zzApDRwqk' },
