@@ -33,9 +33,9 @@ export default function StudentRegister() {
         <Image src="/student.svg" alt="Student Ambassador Image" width={500} height={400} />
       </div>
       <div className="mt-12">
-        <p className="text-center text-lg font-light">Want to</p>
-        <p className="text-center text-3xl">Become a Student Ambassador?</p>
-        <div className="flex justify-center m-4">
+        <p className="text-center text-lg font-light md:text-left xl:text-left">Want to</p>
+        <p className="text-center text-3xl md:text-left xl:text-left">Become a Student Ambassador?</p>
+        <div className="flex justify-center xl:justify-start mt-4">
           <button
             onClick={openModal}
             className="bg-green-600 text-white p-2 hover:bg-white hover:text-green-600 rounded-md shadow-md  cursor-pointer focus:outline-none"
