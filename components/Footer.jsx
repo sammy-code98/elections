@@ -9,11 +9,11 @@ import {
 
 function Footer() {
   return (
-    <footer className="grid  grid-cols-1 md:grid-cols-2 md:px-24 md:h-12 bg-white pb-3 h-full w-full ">
+    <footer className="grid  grid-cols-1 md:grid-cols-2 md:px-24 md:h-12 mt-12 bg-white pb-3 h-full w-full ">
       <div className="text-gray-400 text-center mt-4">@ 2022 All Rights Reserved</div>
-      <div className="flex justify-between mx-36   mt-4">
+      <div className="flex justify-center space-x-14  mt-4">
         <FaFacebook
-          className="cursor-pointer text-gray-500 "
+          className="cursor-pointer  text-gray-500 "
           style={{ fontSize: "1.5em" }}
         />
 
