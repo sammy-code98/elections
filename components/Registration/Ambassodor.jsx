@@ -31,7 +31,7 @@ export default function AmbassadorRegister() {
     <div className="grid  grid-cols-1 md:grid-cols-2 mt-4 md:mx-auto items-center md:px-24">
         <div>
           <p className="text-center  text-lg font-light">Register to</p>
-          <p className="text-right text-3xl">Become an Ambassador</p>
+          <p className="md:text-right text-center text-3xl">Become an Ambassador</p>
           <div className="flex justify-center m-4">
             <button
               onClick={openModal}
@@ -51,7 +51,7 @@ export default function AmbassadorRegister() {
             </Modal>
           </div>
         </div>
-        <div>
+        <div className="order-first xl:order-last">
         <Image src="/ambassador.svg" alt="Student Ambassador Image" width={500} height={400} />
       </div>
     </div>
