@@ -4,9 +4,9 @@ function Form() {
   return (
     <div>
       <form>
-        <div className="bg-gray-lighter shadow-lg h-full rounded-md w-full">
+        <div className="bg-gray-50 shadow-lg h-full rounded-md w-full">
           <div className="px-4 md:px-6">
-            <div className="bg-white py-8  mt-4 text-black w-full">
+            <div className="bg-gray-50 py-8  mt-4 text-black w-full">
               <input
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
