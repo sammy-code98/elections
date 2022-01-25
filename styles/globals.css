@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   @font-face {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Comfortaa", cursive;
   }
   body {
     @apply font-font;
