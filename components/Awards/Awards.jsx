@@ -4,74 +4,85 @@ export default function Awards() {
     <div className="mt-44">
       <div className="text-3xl text-center text-gray-800">Recent Awards</div>
       <div className="grid  grid-cols-1rid md:grid-cols-3 md:gap-6  md:px-32 mt-12 px-4">
-          <div className="m-2">
+        <div className="m-2">
+          <span className="text-base text-gray-800 font-bold">
+            Award for Demystifying Covid-19 Politics (2020)
+          </span>
           <ProgressLine
-          label="AWARD FOR DEMYSTIFYING COVID-19 POLITICS (2020)"
-          visualParts={[
-            {
-              percentage: "30%",
-              color: "blue",
-            },
-          ]}
-        />
-          </div>
-          <div className="m-2">
+            visualParts={[
+              {
+                percentage: "30%",
+                color: "blue",
+              },
+            ]}
+          />
+        </div>
+        <div className="m-2">
+          <span className="text-base text-gray-800 font-bold">
+            Best Governor Award (2019)
+          </span>
           <ProgressLine
-          label="BEST GOVERNOR AWARD (2019)"
-          visualParts={[
-            {
-              percentage: "50%",
-              color: "skyBlue",
-            },
-          ]}
-        />
-          </div>
-          <div className="m-2">
+            visualParts={[
+              {
+                percentage: "50%",
+                color: "skyBlue",
+              },
+            ]}
+          />
+        </div>
+        <div className="m-2">
+          <span className="text-base text-gray-800 font-bold">
+            Most Security Conscious Governor (2017)
+          </span>
           <ProgressLine
-          label="MOST SECURITY CONSCIOUS GOVERNOR (2017)"
-          visualParts={[
-            {
-              percentage: "80%",
-              color: "gray",
-            },
-          ]}
-        />
-          </div>
-          <div className="m-2">
+            visualParts={[
+              {
+                percentage: "80%",
+                color: "gray",
+              },
+            ]}
+          />
+        </div>
+        <div className="m-2">
+          <span className="text-base text-gray-800 font-bold">
+            Governor of the year on Security (2020)
+          </span>
           <ProgressLine
-          label="GOVERNOR OF THE YEAR ON SECURITY (2020)"
-          visualParts={[
-            {
-              percentage: "40%",
-              color: "green",
-            },
-          ]}
-        />
-          </div>
-          <div className="m-2">
+            visualParts={[
+              {
+                percentage: "40%",
+                color: "green",
+              },
+            ]}
+          />
+        </div>
+        <div className="m-2">
+          <span className="text-base text-gray-800 font-bold">
+            {" "}
+            Special Recognition Award (2018)
+          </span>
           <ProgressLine
-          label="SPECIAL RECOGNITION AWARD (2018)"
-          visualParts={[
-            {
-              percentage: "65%",
-              color: "yellow",
-            },
-          ]}
-        />
-          </div>
-          <div className="m-2">
+            visualParts={[
+              {
+                percentage: "65%",
+                color: "yellow",
+              },
+            ]}
+          />
+        </div>
+        <div className="m-2">
+          <span className="text-base text-gray-800 font-bold">
+            Good Governance Award (2017)
+          </span>
           <ProgressLine
-          label="GOOD GOVERNANCE AWARD (2017)"
-          visualParts={[
-            {
-              percentage: "100%",
-              color: "red",
-            },
-          ]}
-        />
-          </div>
-        
-         
+            visualParts={[
+              {
+                percentage: "100%",
+                color: "red",
+              },
+            ]}
+          />
+        </div>
       </div>
     </div>
   );

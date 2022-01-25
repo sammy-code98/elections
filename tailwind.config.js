@@ -4,13 +4,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    container:{
+    container: {
       center: true,
-      padding:'24px'
+      padding: "24px",
     },
     extend: {},
     fontFamily: {
-      font: ["Roboto Mono", "monospace"],
+      font: ["Comfortaa", "cursive"],
     },
   },
   plugins: [],
