@@ -13,5 +13,5 @@ module.exports = {
       font: ["Comfortaa", "cursive"],
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
