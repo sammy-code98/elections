@@ -14,14 +14,15 @@ function Form() {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
-  const onSubmit = (data) => console.log(data);
-  // const onSubmit = () => {
-  //   console.log({ data: "logged in" });
-  //   // dispatch(login());
-  // };
+  const onSubmit = (data) =>{
+     console.log(data)
+     reset()
+    };
+
 
   return (
     <div>
