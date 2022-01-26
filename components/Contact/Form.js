@@ -1,35 +1,63 @@
 import React from "react";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+
+const schema = yup.object().shape({
+  fullName: yup.string().required("FullName is required*"),
+  email: yup.string().email().required("Email Address is required*"),
+  subject: yup.string().required("Subject is required*"),
+  message: yup.string().required("Message is required*"),
+});
 
 function Form() {
-  
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({ resolver: yupResolver(schema) });
+
+  const onSubmit = (data) => console.log(data);
+  // const onSubmit = () => {
+  //   console.log({ data: "logged in" });
+  //   // dispatch(login());
+  // };
+
   return (
     <div>
-      <form >
+      <form onSubmit={handleSubmit(onSubmit)}>
         <div className="bg-gray-50 shadow-lg h-full rounded-md w-full">
           <div className="px-4 md:px-6">
             <div className="bg-gray-50 py-8  mt-4 text-black w-full">
               <input
+              {...register("fullName")}
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="fullName"
                 placeholder="Full Name"
               />
-             
+              <p className="text-sm mb-2 text-red-500">{errors.fullName?.message}</p>
+
               <input
+              {...register("email")}
                 type="email"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="email"
                 placeholder="Email Address"
               />
-            
+              <p className="text-sm mb-2 text-red-500">{errors.email?.message}</p>
+
               <input
+              {...register("subject")}
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="subject"
                 placeholder="Subject"
               />
-             
+              <p className="text-sm mb-2 text-red-500">{errors.subject?.message}</p>
+
               <textarea
+              {...register("message")}
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="message"
                 placeholder="Message/Comment"
@@ -37,7 +65,8 @@ function Form() {
                 rows="4"
                 type="textarea"
               ></textarea>
-             
+              <p className="text-sm mb-2 text-red-500">{errors.message?.message}</p>
+
               <button
                 type="submit"
                 className="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-white hover:text-green-600 focus:outline-none my-1"
