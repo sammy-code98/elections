@@ -30,34 +30,44 @@ function Form() {
           <div className="px-4 md:px-6">
             <div className="bg-gray-50 py-8  mt-4 text-black w-full">
               <input
-              {...register("fullName")}
+                {...register("fullName", { required: true, maxlength: 30 })}
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="fullName"
                 placeholder="Full Name"
               />
-              <p className="text-sm mb-2 text-red-500">{errors.fullName?.message}</p>
+              <p className="text-sm mb-2 text-red-500">
+                {errors.fullName?.message}
+              </p>
 
               <input
-              {...register("email")}
+                {...register("email", {
+                  required: true,
+                  pattern:
+                    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                })}
                 type="email"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="email"
                 placeholder="Email Address"
               />
-              <p className="text-sm mb-2 text-red-500">{errors.email?.message}</p>
+              <p className="text-sm mb-2 text-red-500">
+                {errors.email?.message}
+              </p>
 
               <input
-              {...register("subject")}
+                {...register("subject", {required: true, maxLength:50}) }
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="subject"
                 placeholder="Subject"
               />
-              <p className="text-sm mb-2 text-red-500">{errors.subject?.message}</p>
+              <p className="text-sm mb-2 text-red-500">
+                {errors.subject?.message}
+              </p>
 
               <textarea
-              {...register("message")}
+                {...register("message", { required: true, maxlength: 500 })}
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="message"
                 placeholder="Message/Comment"
@@ -65,7 +75,9 @@ function Form() {
                 rows="4"
                 type="textarea"
               ></textarea>
-              <p className="text-sm mb-2 text-red-500">{errors.message?.message}</p>
+              <p className="text-sm mb-2 text-red-500">
+                {errors.message?.message}
+              </p>
 
               <button
                 type="submit"
