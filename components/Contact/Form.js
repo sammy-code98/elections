@@ -1,9 +1,10 @@
 import React from "react";
 
 function Form() {
+  
   return (
     <div>
-      <form>
+      <form >
         <div className="bg-gray-50 shadow-lg h-full rounded-md w-full">
           <div className="px-4 md:px-6">
             <div className="bg-gray-50 py-8  mt-4 text-black w-full">
@@ -13,18 +14,21 @@ function Form() {
                 name="fullName"
                 placeholder="Full Name"
               />
+             
               <input
                 type="email"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="email"
                 placeholder="Email Address"
               />
+            
               <input
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="subject"
                 placeholder="Subject"
               />
+             
               <textarea
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="message"
@@ -33,12 +37,13 @@ function Form() {
                 rows="4"
                 type="textarea"
               ></textarea>
-                <button
-              type="submit"
-              className="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-white hover:text-green-600 focus:outline-none my-1"
-            >
-              Submit
-            </button>
+             
+              <button
+                type="submit"
+                className="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-white hover:text-green-600 focus:outline-none my-1"
+              >
+                Submit
+              </button>
             </div>
           </div>
         </div>
