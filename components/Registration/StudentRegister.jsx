@@ -14,10 +14,10 @@ export default function StudentRegister() {
         />
       </div>
       <div className="mt-12">
-        <p className="text-center text-lg font-light md:text-left xl:text-left">
+        <p className="text-center text-lg text-gray-400 md:text-left xl:text-left">
           Want to
         </p>
-        <p className="text-center text-3xl md:text-left xl:text-left">
+        <p className="text-center text-3xl text-gray-800 md:text-left xl:text-left">
           Become a Student Ambassador?
         </p>
         <div className="flex justify-center xl:justify-start mt-4">
