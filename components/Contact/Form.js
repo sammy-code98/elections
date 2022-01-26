@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import emailjs from "@emailjs/browser";
 
 const schema = yup.object().shape({
   fullName: yup.string().required("FullName is required*"),
@@ -11,6 +12,7 @@ const schema = yup.object().shape({
 });
 
 function Form() {
+  const form = useRef();
   const {
     register,
     handleSubmit,
@@ -18,15 +20,24 @@ function Form() {
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
-  const onSubmit = (data) =>{
-     console.log(data)
-     reset()
-    };
-
+  const onSubmit = (data) => {
+    emailjs.sendForm(
+      "service_0tnutqc",
+      "template_vcsflf5",
+      form.current,
+      "user_sGMmbwEi4RHCf1RNCLeP9"
+    ).then((result)=>{
+      console.log(result.text);
+    }, (error)=>{
+      console.log(error.text);
+    });
+    console.log(data);
+    reset();
+  };
 
   return (
     <div>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form ref={form} onSubmit={handleSubmit(onSubmit)}>
         <div className="bg-gray-50 shadow-lg h-full rounded-md w-full">
           <div className="px-4 md:px-6">
             <div className="bg-gray-50 py-8  mt-4 text-black w-full">
@@ -57,7 +68,7 @@ function Form() {
               </p>
 
               <input
-                {...register("subject", {required: true, maxLength:50}) }
+                {...register("subject", { required: true, maxLength: 50 })}
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
                 name="subject"
