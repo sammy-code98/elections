@@ -7,8 +7,8 @@ export default function WhatsappGroup() {
         Join our Whatsapp Group
       </div>
       <div className="text-center  text-gray-400 mt-2 text-base">
-        Click on your state to join the whatsapp group to keep in touch with
-        fellow Ambassadors in your state
+        Click on your <span className="text-green-600  font-bold">Local Goverment Area</span> to join the whatsapp group to keep in touch with
+        fellow Ambassadors in your LGA
       </div>
       <div className="mt-6 grid grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4 md:mx-8 md:px-32">
         {location.map((locate) => (

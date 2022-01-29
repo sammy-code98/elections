@@ -12,7 +12,7 @@ export default function About() {
     >
       <div>
         <Image
-          src="/banner2.jpeg"
+          src="/men.jpg"
           alt="About Image"
           width={500}
           height={300}
