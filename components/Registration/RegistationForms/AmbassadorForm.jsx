@@ -6,7 +6,7 @@ export default function AmbassadorForm() {
   return (
     <div>
       <form>
-      <div className="text-center text-xl text-gray-500 font-bold">Become a MEN Ambassador</div>
+      <div className="text-center text-xl text-gray-500 font-bold">Register your Campain Group</div>
 
         <div className="bg-gray-lighter shadow-lg h-full rounded-md w-full flex flex-col-1">
           <div className="px-2">

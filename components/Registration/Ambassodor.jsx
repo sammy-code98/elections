@@ -6,10 +6,10 @@ export default function AmbassadorRegister() {
     <div className="grid  grid-cols-1 md:grid-cols-2 mt-4 md:mx-auto items-center md:px-24">
       <div>
         <p className="text-center  text-lg text-gray-400 md:text-left xl:text-left">
-          Register to
+          Register your
         </p>
         <p className="md:text-left text-gray-800 text-center text-3xl xl:text-left">
-          Become an Ambassador
+          Campaign Group
         </p>
         <div className="flex justify-center mt-4 md:justify-start xl:justify-start">
           <button className="bg-green-600 text-white p-2 hover:bg-white hover:text-green-600 rounded-md shadow-md  cursor-pointer focus:outline-none">
