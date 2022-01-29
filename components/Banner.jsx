@@ -5,7 +5,7 @@ export default function Banner() {
       maxHeight: "900px",
     }}>
 
-      <img src="https://ban2023.org/images/banner.jpg" alt="banner"  className="w-full h-full"/>
+      <img src="/men.jpg" alt="banner"  className="w-full h-full" />
 
       <div className="absolute top-0 left-0 h-full w-full bg-black opacity-40 "></div>
 
