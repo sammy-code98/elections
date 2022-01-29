@@ -6,6 +6,8 @@ function StudentAmbassador() {
   return (
     <div>
       <form>
+      <div className="text-center text-xl text-gray-500 font-bold">Become a MEN Student Ambassador</div>
+
         <div className="bg-gray-lighter shadow-lg h-full rounded-md w-full flex flex-col-1">
           <div className="px-2">
             <div className="bg-white px-6 py-8  mt-2 text-black w-full">
@@ -80,7 +82,7 @@ function StudentAmbassador() {
               >
                 Register
               </button>
-              <span className="text-center text-gray-400 text-base mt-4 ">
+              <span className="text-center text-gray-400 text-base mt-12">
                 By clicking Register, I agree to our terms
               </span>
             </div>
