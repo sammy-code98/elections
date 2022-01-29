@@ -1,6 +1,8 @@
 import React from "react";
+import naijaXbyState from "naija-xbystate";
 
 function StudentAmbassador() {
+  const lgas = naijaXbyState.lgas("ebonyi");
   return (
     <div>
       <form>
@@ -65,21 +67,11 @@ function StudentAmbassador() {
                 type="select"
                 className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
               >
-                <option value="Abakaliki">Abakaliki</option>
-                <option value="Afikpo North">Afikpo North</option>
-                <option value="Afikpo South">Afikpo South</option>
-                <option value="Ebonyi">Ebonyi</option>
-                <option value="Ezza North">Ezza North</option>
-                <option value="Ezza South">Ezza South</option>
-                <option value="Ikwo">Ikwo</option>
-                <option value="Ishielu">Ishielu</option>
-                <option value="Ivo">Ivo</option>
-                <option value="Izzi">Izzi</option>
-                <option value="Ohaozara">Ohaozara</option>
-                <option value="Ohaukwu">Ohaukwu</option>
-                <option value="Onicha">Ohaozara</option>
-
-
+                {lgas.map((lga, index) => (
+                  <option key={index} value={lga}>
+                    {lga}
+                  </option>
+                ))}
               </select>
 
               <button
