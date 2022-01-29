@@ -7,42 +7,50 @@ export default function AmbassadorForm() {
         <div className="bg-gray-lighter shadow-lg h-full rounded-md w-full flex flex-col-1">
           <div className="px-2">
             <div className="bg-white px-6 py-8  mt-2 text-black w-full">
+              <label className="text-gray-500 m-2">Full Name</label>
+
               <input
                 type="text"
-                className="block border border-grey-light w-full p-3 rounded mb-4"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="fullName"
-                placeholder="Full Name"
               />
+              <label className="text-gray-500 m-2">Email Address</label>
+
               <input
                 type="email"
-                className="block border border-grey-light w-full p-3 rounded mb-4"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="email"
-                placeholder="Email Address"
               />
+              <label className="text-gray-500 m-2">Phone Number</label>
+
               <input
                 type="text"
-                className="block border border-grey-light w-full p-3 rounded mb-4"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="number"
-                placeholder="Phone Number"
               />
+              <label className="text-gray-500 m-2">Gender</label>
+
               <select
                 name="gender"
                 type="select"
-                className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4"
+                className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
               >
                 <option value="male">Male</option>
                 <option value="female">Female</option>
               </select>
+              <label className="text-gray-500 m-2">Age</label>
+
               <input
                 type="text"
-                className="block border border-grey-light w-full p-3 rounded mb-4"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="age"
-                placeholder="Age"
               />
+              <label className="text-gray-500 m-2">Occupation</label>
+
               <select
                 name="occupation"
                 type="select"
-                className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4"
+                className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
               >
                 <option value="civil servant">Civil Servant</option>
                 <option value="private sector">Private Sector</option>
@@ -50,25 +58,13 @@ export default function AmbassadorForm() {
                 <option value="self employed">Self employed</option>
                 <option value="business">Business</option>
                 <option value="others">Others</option>
-
               </select>
-              <select
-                name="state"
-                type="select"
-                className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4"
-              >
-                <option value="civil servant">Civil Servant</option>
-                <option value="private sector">Private Sector</option>
-                <option value="umeployed">Umeployed</option>
-                <option value="self employed">Self employed</option>
-                <option value="business">Business</option>
-                <option value="others">Others</option>
+              <label className="text-gray-500 m-2">Local Goverment Area</label>
 
-              </select>
               <select
                 name="lga"
                 type="select"
-                className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4"
+                className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
               >
                 <option value="civil servant">Civil Servant</option>
                 <option value="private sector">Private Sector</option>
@@ -76,7 +72,6 @@ export default function AmbassadorForm() {
                 <option value="self employed">Self employed</option>
                 <option value="business">Business</option>
                 <option value="others">Others</option>
-
               </select>
               <button
                 type="submit"
@@ -84,10 +79,10 @@ export default function AmbassadorForm() {
               >
                 Register
               </button>
-              <span className="text-center text-gray-400 text-base mt-4 ">By clicking Register, I agree to our terms</span>
-
+              <span className="text-center text-gray-400 text-base mt-4 ">
+                By clicking Register, I agree to our terms
+              </span>
             </div>
-
           </div>
         </div>
       </form>
