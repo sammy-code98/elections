@@ -44,7 +44,7 @@ function Form() {
               <input
                 {...register("fullName", { required: true, maxlength: 30 })}
                 type="text"
-                className="block border border-grey-light w-full p-3 rounded mb-4"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="fullName"
                 placeholder="Full Name"
               />
@@ -59,7 +59,7 @@ function Form() {
                     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                 })}
                 type="email"
-                className="block border border-grey-light w-full p-3 rounded mb-4"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="email"
                 placeholder="Email Address"
               />
@@ -70,7 +70,7 @@ function Form() {
               <input
                 {...register("subject", { required: true, maxLength: 50 })}
                 type="text"
-                className="block border border-grey-light w-full p-3 rounded mb-4"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="subject"
                 placeholder="Subject"
               />
@@ -80,7 +80,7 @@ function Form() {
 
               <textarea
                 {...register("message", { required: true, maxlength: 500 })}
-                className="block border border-grey-light w-full p-3 rounded mb-4"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="message"
                 placeholder="Message/Comment"
                 cols="10"
