@@ -3,7 +3,6 @@ import naijaXbyState from "naija-xbystate";
 
 function StudentAmbassador() {
   const lgas = naijaXbyState.lgas("ebonyi");
-  console.log(naijaXbyState.lgas("ebonyi"));
   return (
     <div>
       <form>

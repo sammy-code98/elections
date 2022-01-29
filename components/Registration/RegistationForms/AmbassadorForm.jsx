@@ -1,6 +1,8 @@
 import React from "react";
+import naijaXbyState from "naija-xbystate";
 
 export default function AmbassadorForm() {
+  const lgas = naijaXbyState.lgas("ebonyi");
   return (
     <div>
       <form>
@@ -66,12 +68,11 @@ export default function AmbassadorForm() {
                 type="select"
                 className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
               >
-                <option value="civil servant">Civil Servant</option>
-                <option value="private sector">Private Sector</option>
-                <option value="umeployed">Umeployed</option>
-                <option value="self employed">Self employed</option>
-                <option value="business">Business</option>
-                <option value="others">Others</option>
+                {lgas.map((lga, index) => (
+                  <option key={index} value={lga}>
+                    {lga}
+                  </option>
+                ))}
               </select>
               <button
                 type="submit"
