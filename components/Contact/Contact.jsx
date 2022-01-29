@@ -17,13 +17,13 @@ export default function Contact() {
         </div>
         <div className="mt-12">
           <div className="flex m-4 text-gray-500">
-            <FaPhoneAlt className="mx-2 mt-1" /> +234 344 2222 333
+            <FaPhoneAlt className="mx-2 mt-1" /> +234 810 002 6694
           </div>
           <div className="flex m-4 text-gray-500">
-            <FaEnvelope className="mx-2 mt-1" /> elections@gmail.com
+            <FaEnvelope className="mx-2 mt-1" /> Mbameliasnwalem@gmail.com
           </div>
           <div className="flex m-4 text-gray-500">
-            <FaMapMarkerAlt className="mx-2 mt-1" /> No 30 wuse complex Abuja
+            <FaMapMarkerAlt className="mx-2 mt-1" /> ELYMAY Centre Mile 50
           </div>
         </div>
       </div>

@@ -16,8 +16,8 @@ export default function Mission() {
             </li>
             <li>Provide support to state entities for the campaign process</li>
             <li>
-              Mobilise Nigerians from different states to support the Bello
-              Presidential Team
+              Mobilise Nigerians from different states to support the Engr. Elias Mbam Nwalem
+              Governorship Team
             </li>
             <li>
               Prepare and administer an exploratory/outreach plan to Nigerians
@@ -26,7 +26,8 @@ export default function Mission() {
             </li>
             <li>
               As a matter of course, take grassroots input into account, and
-              have as overarching goal the growth of the Bello Presidential Team
+              have as overarching goal the growth of the  Engr. Elias Mbam Nwalem
+              Governorship Team
             </li>
           </ul>
         </div>
@@ -37,8 +38,8 @@ export default function Mission() {
             </li>
             <li>Provide support to state entities for the campaign process</li>
             <li>
-              Mobilise Nigerians from different states to support the Bello
-              Presidential Team
+              Mobilise Nigerians from different states to support the  Engr. Elias Mbam Nwalem
+              Governorship Team
             </li>
             <li>
               Prepare and administer an exploratory/outreach plan to Nigerians
@@ -47,7 +48,8 @@ export default function Mission() {
             </li>
             <li>
               As a matter of course, take grassroots input into account, and
-              have as overarching goal the growth of the Bello Presidential Team
+              have as overarching goal the growth of the  Engr. Elias Mbam Nwalem
+              Governorship Team
             </li>
           </ul>
         </div>
