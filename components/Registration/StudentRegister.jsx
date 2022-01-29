@@ -15,10 +15,10 @@ export default function StudentRegister() {
       </div>
       <div className="mt-12">
         <p className="text-center text-lg text-gray-400 md:text-left xl:text-left">
-          Want to
+          Register to
         </p>
         <p className="text-center text-3xl text-gray-800 md:text-left xl:text-left">
-          Become a Student Ambassador?
+          Become an Ambassador?
         </p>
         <div className="flex justify-center xl:justify-start mt-4">
           <button className="bg-green-600 text-white p-2 hover:bg-white hover:text-green-600 rounded-md shadow-md  cursor-pointer focus:outline-none">
