@@ -12,9 +12,9 @@ export default function Banner() {
       <div
         className="mt-4 absolute top-0 h-full w-full"
       >
-        <div className="text-4xl sm:text-5xl md:text-6xl mt-20 text-left md:mt-72 xl:mt-72 p-3 text-white ">
-          <div>Bello</div>
-          <div>Ambassadors</div>
+        <div className="text-5xl sm:text-5xl md:text-7xl mt-20 text-left md:mt-72 xl:mt-72 p-3 text-white ">
+          <div>Mbam</div>
+          <div>Elias</div>
           <div>Network</div>
         </div>
       </div>
