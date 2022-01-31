@@ -1,18 +1,17 @@
 import React from "react";
 import naijaXbyState from "naija-xbystate";
 
-export default function AmbassadorForm() {
+function Ambassador() {
   const lgas = naijaXbyState.lgas("ebonyi");
   return (
     <div>
       <form>
-      <div className="text-center text-xl text-gray-500 font-bold">Register your Campain Group</div>
+      <div className="text-center text-xl text-gray-500 font-bold">Become a MEN    Ambassador</div>
 
         <div className="bg-gray-lighter shadow-lg h-full rounded-md w-full flex flex-col-1">
           <div className="px-2">
             <div className="bg-white px-6 py-8  mt-2 text-black w-full">
               <label className="text-gray-500 m-2">Full Name</label>
-
               <input
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
@@ -51,18 +50,18 @@ export default function AmbassadorForm() {
               />
               <label className="text-gray-500 m-2">Occupation</label>
 
-              <select
+              <input
+                type="text"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
                 name="occupation"
-                type="select"
-                className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
-              >
-                <option value="civil servant">Civil Servant</option>
-                <option value="private sector">Private Sector</option>
-                <option value="umeployed">Umeployed</option>
-                <option value="self employed">Self employed</option>
-                <option value="business">Business</option>
-                <option value="others">Others</option>
-              </select>
+              />
+              <label className="text-gray-500 m-2">Institution</label>
+
+              <input
+                type="text"
+                className="block border border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
+                name="institution"
+              />
               <label className="text-gray-500 m-2">Local Goverment Area</label>
 
               <select
@@ -76,6 +75,7 @@ export default function AmbassadorForm() {
                   </option>
                 ))}
               </select>
+
               <button
                 type="submit"
                 className="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-white hover:text-green-600 focus:outline-none my-1"
@@ -92,3 +92,5 @@ export default function AmbassadorForm() {
     </div>
   );
 }
+
+export default Ambassador;
