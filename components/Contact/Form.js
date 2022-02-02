@@ -22,7 +22,9 @@ function Form() {
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
-  const onSubmit = (data) => {
+  const onSubmit = (data ,e) => {
+    e.preventDefault();
+
     emailjs
       .sendForm(
         "service_0tnutqc",
