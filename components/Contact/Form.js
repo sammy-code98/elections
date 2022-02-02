@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const schema = yup.object().shape({
   fullName: yup.string().required("FullName is required*"),
@@ -21,16 +23,41 @@ function Form() {
   } = useForm({ resolver: yupResolver(schema) });
 
   const onSubmit = (data) => {
-    emailjs.sendForm(
-      "service_0tnutqc",
-      "template_vcsflf5",
-      form.current,
-      "user_sGMmbwEi4RHCf1RNCLeP9"
-    ).then((result)=>{
-      console.log(result.text);
-    }, (error)=>{
-      console.log(error.text);
-    });
+    emailjs
+      .sendForm(
+        "service_0tnutqc",
+        "template_vcsflf5",
+        form.current,
+        "user_sGMmbwEi4RHCf1RNCLeP9"
+      )
+      .then(
+        (result) => {
+          // console.log(result.text);
+          if (result.status === 200) {
+              toast.success('Thank you for reaching out, we will get back to you soon', {
+                position: "top-center",
+                autoClose: 9000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                });
+          }
+        },
+        (error) => {
+          // console.log(error.text);
+          toast.error('Please try to full the form and submit again', {
+            position: "top-center",
+            autoClose: 9000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            });
+        }
+      );
     console.log(data);
     reset();
   };
@@ -101,6 +128,17 @@ function Form() {
           </div>
         </div>
       </form>
+      <ToastContainer
+position="top-center"
+autoClose={9000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+/>
     </div>
   );
 }
