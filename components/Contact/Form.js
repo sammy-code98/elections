@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+
 
 const schema = yup.object().shape({
   fullName: yup.string().required("FullName is required*"),
@@ -28,6 +30,9 @@ function Form() {
       "user_sGMmbwEi4RHCf1RNCLeP9"
     ).then((result)=>{
       console.log(result.text);
+      if(result.status === 200) {
+        alert(result.message);
+      }
     }, (error)=>{
       console.log(error.text);
     });
