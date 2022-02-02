@@ -3,6 +3,9 @@ import naijaXbyState from "naija-xbystate";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const schema = yup.object().shape({
   fullName: yup.string().required("FullName is required*"),
@@ -22,11 +25,50 @@ function Ambassador() {
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
-  // submisiion
-  const onSubmit = data => {
+  const onSubmit = (data, e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_0tnutqc",
+        "template_3utxs2l",
+        form.current,
+        "user_sGMmbwEi4RHCf1RNCLeP9"
+      )
+      .then(
+        (result) => {
+          // console.log(result.text);
+          if (result.status === 200) {
+            toast.success(
+              "Thank you for reaching out, we will get back to you soon",
+              {
+                position: "top-center",
+                autoClose: 9000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              }
+            );
+          }
+        },
+        (error) => {
+          // console.log(error.text);
+          toast.error("Please try to full the form and submit again", {
+            position: "top-center",
+            autoClose: 9000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+        }
+      );
     console.log(data);
     reset();
-  }
+  };
   const lgas = naijaXbyState.lgas("ebonyi");
   return (
     <div>
@@ -45,7 +87,7 @@ function Ambassador() {
                 name="fullName"
                 {...register("fullName")}
               />
-                <p className="text-sm mb-2 text-red-500">
+              <p className="text-sm mb-2 text-red-500">
                 {errors.fullName?.message}
               </p>
               <label className="text-gray-500 m-2">Email Address</label>
@@ -60,7 +102,7 @@ function Ambassador() {
                     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                 })}
               />
-                <p className="text-sm mb-2 text-red-500">
+              <p className="text-sm mb-2 text-red-500">
                 {errors.email?.message}
               </p>
               <label className="text-gray-500 m-2">Phone Number</label>
@@ -71,7 +113,7 @@ function Ambassador() {
                 name="number"
                 {...register("number")}
               />
-                <p className="text-sm mb-2 text-red-500">
+              <p className="text-sm mb-2 text-red-500">
                 {errors.number?.message}
               </p>
               <label className="text-gray-500 m-2">Gender</label>
@@ -80,7 +122,7 @@ function Ambassador() {
                 name="gender"
                 type="select"
                 className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
-                {...register("gender" ,  {required: true})}
+                {...register("gender", { required: true })}
               >
                 <option value=""></option>
                 <option value="male">Male</option>
@@ -97,16 +139,14 @@ function Ambassador() {
                 name="age"
                 {...register("age")}
               />
-                <p className="text-sm mb-2 text-red-500">
-                {errors.age?.message}
-              </p>
+              <p className="text-sm mb-2 text-red-500">{errors.age?.message}</p>
               <label className="text-gray-500 m-2">Occupation</label>
 
               <select
                 name="occupation"
                 type="select"
                 className="block border bg-white text-gray-400 border-grey-light w-full p-3 rounded mb-4 focus:outline-green-600"
-                {...register("occupation" , {required: true})}
+                {...register("occupation", { required: true })}
               >
                 <option value=""></option>
                 <option value="civil servant">Civil Servant</option>
@@ -148,6 +188,17 @@ function Ambassador() {
           </div>
         </div>
       </form>
+      <ToastContainer
+        position="top-center"
+        autoClose={9000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 }
