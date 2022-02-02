@@ -32,7 +32,7 @@ function Form() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
           if (result.status === 200) {
               toast.success('Thank you for reaching out, we will get back to you soon', {
                 position: "top-center",
@@ -46,7 +46,7 @@ function Form() {
           }
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
           toast.error('Please try to full the form and submit again', {
             position: "top-center",
             autoClose: 9000,
