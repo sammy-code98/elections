@@ -33,7 +33,7 @@ export default function About() {
                 and the achievement of a national goal of genuine greatness,
                 economic prosperity and tranquility devoid of pecuniary gains.
                 That man is Engineer Elias Nwalem Mbam, the chairman of the
-                Nigeria &apos;s Revenue Mobilization Allocation and Fiscal Commission
+                Nigeria&apos;s Revenue Mobilization Allocation and Fiscal Commission
                 (RMFAC). Engr. Elias N Mbam born on 2nd September, 1958 in
                 Nwofe-Agbaje in izzi local govt. area of Ebonyi State.He
                 Attended Hartford State Technical College in the U.S. from 1977
@@ -155,11 +155,7 @@ export default function About() {
             `${aboutText.substring(0, 400) + " " + " ..."}`
           )}
 
-          {/* <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
-            {readMore
-              ? aboutText
-              : `${aboutText.substring(0, 400) + " " + " ..."}`}
-          </p> */}
+        
           <div className="flex justify-center m-4">
             <div
               onClick={() => setReadMore(!readMore)}
