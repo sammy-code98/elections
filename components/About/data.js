@@ -1,41 +1,6 @@
 export const aboutText = `
+We, The Ebonyians have found a man of quality who has brought his zeal for selfless service to bear on national life and who is a public servant with excellent idea on how to achieve a set goal. A distinguished patriotic Nigerian, who in his public and private life will remain consistent in the pursuit of excellence and the achievement of a national goal of genuine greatness, economic prosperity and tranquility devoid of pecuniary gains.
+ That man is Engineer Elias Nwalem Mbam, the chairman of the Nigeria's Revenue Mobilization Allocation and Fiscal Commission (RMFAC).
+Engr. Elias N Mbam born on 2nd September, 1958 in Nwofe-Agbaje in izzi local govt. area of Ebonyi State.He Attended Hartford State Technical College in the U.S. from 1977 – 1979 for Associate Degree before moving to University of Nigeria, Nsukka where he bagged a bachelor’s degree in electrical engineering in 1984. He started accumulating his rich profiles with high records of political, working, and leadership experience among other people we are expecting to succeed Governor David Umahi in 2023.
 
-Engr. Elias Mbam Nwalem is a Nigerian politician and businessman, The
-            fourth democratically elected Governor of Kogi State in 2016 and
-            re-elected in Nov 2019.
-            Engr. Elias Mbam Nwalem was born on June 18, 1975 in Okene LGA, Kogi
-            State as the youngest of six children. He was born to Late Alhaji
-            Bello Ipemida Ochi and Hajiya Hawawu Oziohu.
-
-            In 1984, he attended the LGEA primary school, Agasa and in 1989 he
-            proceeded to Agassa Community Secondary School, Anyava, Agassa-Okene
-            and obtained his Junior Secondary School Certificate Examination
-            (JSSCE) and Senior Secondary Certificate Examination (SSCE)
-            certificates from Government Secondary School, Suleja-Niger State in
-            1994.
-            Engr. Elias Mbam Nwalem  started as a Revenue Officer II at the Revenue
-              Mobilization Allocation and Fiscal Commission (RMAFC) in 2001. He
-              began at the commission as a Youth Corp member and got retained
-              due to his diligence. Shortly after, he became a Senior Accountant
-              and got transferred to the Makurdi Zonal Office to head the
-              Account Department. Later on, he became the Assistant Chief
-              Accountant until he resigned. Engr. Elias Mbam Nwalem knew he cant be
-              a humanitarian by earning salary, after resignation from public
-              service, he went into private business. As a business man, Engr. Elias Mbam Nwalem
-               with a single 18-seater bus he procured through a bank
-              loan, built one of Nigerias most successful transport businesses,
-              Fair Plus. Discovering that Engr. Elias Mbam Nwalem was a faithful and prudent
-              resourceful entrepreneur gave more bank facilities. With more
-              facilities and with the introduction of modern business management
-              into the business, Fair Plus rose to become a giant in the
-              industry. Applying his entrepreneurial skills,Engr. Elias Mbam Nwalemmastered the art of informed stock trading and had a
-              financial breakthrough right before the crash of the stock market.
-              His stock portfolio investments cut across the oil and gas,
-              finance, transportation, and agro related sectors. He then grew
-              and expanded his real estate investments expanding into a number
-              of states in the country. He currently funds three orphanage homes
-              and sponsors hundreds of Kogi State undergraduates in various
-              higher institutions both within and outside the country. His
-              strong drive for community development inspired him to invest in
-              various community projects.
 `;
