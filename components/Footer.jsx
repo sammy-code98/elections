@@ -10,8 +10,8 @@ import {
 
 function Footer() {
   return (
-    <footer className="grid  grid-cols-1 md:grid-cols-2 md:px-24 md:h-12 mt-12 bg-white pb-3 h-full w-full ">
-      <div className="text-gray-400 text-center mt-4">
+    <footer className="grid  grid-cols-1 md:grid-cols-2 md:px-24 md:h-12 mt-12  pb-6 h-full w-full ">
+      <div className="text-gray-400 text-center mt-4 p-2">
         @ {new Date().getFullYear()} All Rights Reserved
       </div>
       <div className="flex justify-center space-x-14  mt-4">
