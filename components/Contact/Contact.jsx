@@ -16,14 +16,15 @@ export default function Contact() {
           Fill up the form and our Team will get back to you within 24 hours{" "}
         </div>
         <div className="mt-12">
-          <div className="flex m-4 text-gray-500">
-            <FaPhoneAlt className="mx-2 mt-1" /> +234 810 002 6694
+          <div className="flex m-4 text-gray-500 hover:text-green-500">
+            <FaPhoneAlt className="mx-2 mt-1" />{" "}
+            <a href="tel:+234-810-002-6694">+234 810 002 6694</a>
           </div>
-          <div className="flex m-4 text-gray-500">
-            <FaEnvelope className="mx-2 mt-1" /> Mbameliasnwalem@gmail.com
+          <div className="flex m-4 text-gray-500 hover:text-green-500">
+            <FaEnvelope className="mx-2 mt-1" /> <a href="mailto:mbameliasnwalem@gmail.com">mbameliasnwalem@gmail.com</a> 
           </div>
-          <div className="flex m-4 text-gray-500">
-            <FaMapMarkerAlt className="mx-2 mt-1" /> ELYMAY Centre Mile 50
+          <div className="flex m-4 text-gray-500 hover:text-green-500">
+            <FaMapMarkerAlt className="mx-2 mt-1" /> <a  href="http://maps.google.com/?q=elymay centre Mile 50 Abakaliki" target="_blank" rel="noreferrer">ELYMAY Centre Mile 50</a> 
           </div>
         </div>
       </div>

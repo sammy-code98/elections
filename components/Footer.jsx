@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import {
   FaFacebook,
   FaTwitter,
@@ -14,21 +15,26 @@ function Footer() {
         @ {new Date().getFullYear()} All Rights Reserved
       </div>
       <div className="flex justify-center space-x-14  mt-4">
-        <FaFacebook
-          className="cursor-pointer  text-gray-500 "
-          style={{ fontSize: "1.5em" }}
-        />
+        <Link href="https://www.facebook.com/Mbamelias2023" passHref>
+          <a target="_blank">
+          <FaFacebook
+            className="cursor-pointer  text-gray-500  hover:text-sky-500"
+            style={{ fontSize: "1.5em" }}
+          />
+          </a>
+         
+        </Link>
 
         <FaTwitter
-          className="cursor-pointer text-gray-500 "
+          className="cursor-pointer text-gray-500  hover:text-cyan-400"
           style={{ fontSize: "1.5em" }}
         />
         <FaGooglePlusG
-          className="cursor-pointer text-gray-500 "
+          className="cursor-pointer text-gray-500 hover:text-red-500"
           style={{ fontSize: "1.5em" }}
         />
         <FaLinkedin
-          className="cursor-pointer text-gray-500 "
+          className="cursor-pointer text-gray-500 hover:text-blue-400 "
           style={{ fontSize: "1.5em" }}
         />
       </div>
