@@ -20,10 +20,15 @@ export default function About() {
         />
       </div>
       <div>
-        <div className="text-3xl text-gray-800 font-medium">About</div>
+        <div className="text-3xl text-gray-800 text-center mt-4  font-medium">
+          About
+        </div>
         <div className="py-2">
           {readMore ? (
-            <div className="leading-relaxed text-base text-light mb-2 text-gray-800">
+            <div
+              className="leading-relaxed text-base text-bold mb-2 text-gray-800"
+              id="about"
+            >
               <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
                 We, The Ebonyians have found a man of quality who has brought
                 his zeal for selfless service to bear on national life and who
@@ -33,9 +38,9 @@ export default function About() {
                 and the achievement of a national goal of genuine greatness,
                 economic prosperity and tranquility devoid of pecuniary gains.
                 That man is Engineer Elias Nwalem Mbam, the chairman of the
-                Nigeria&apos;s Revenue Mobilization Allocation and Fiscal Commission
-                (RMFAC). Engr. Elias N Mbam born on 2nd September, 1958 in
-                Nwofe-Agbaje in izzi local govt. area of Ebonyi State.He
+                Nigeria&apos;s Revenue Mobilization Allocation and Fiscal
+                Commission (RMFAC). Engr. Elias N Mbam born on 2nd September,
+                1958 in Nwofe-Agbaje in izzi local govt. area of Ebonyi State.He
                 Attended Hartford State Technical College in the U.S. from 1977
                 – 1979 for Associate Degree before moving to University of
                 Nigeria, Nsukka where he bagged a bachelor’s degree in
@@ -70,9 +75,11 @@ export default function About() {
                   1995 – 1996.
                 </li>
               </ol>
-              <span>Highlight: Where he developed the Phase 6 of Trans Ekulu Housing
-              Estate, Enugu.</span>
-              
+              <span>
+                Highlight: Where he developed the Phase 6 of Trans Ekulu Housing
+                Estate, Enugu.
+              </span>
+
               <p className="leading-relaxed text-base font-bold text-light mb-2 text-gray-900">
                 POSITIONS OCCUPIED IN EBONYI STATE GOVERNMENT.{" "}
               </p>
@@ -90,9 +97,12 @@ export default function About() {
                   from 1998 - 1999.
                 </li>
               </ol>
-              <span> Highlight: There, he executed the electrification project of over
-              20 towns and communities in the State.</span>
-             
+              <span>
+                {" "}
+                Highlight: There, he executed the electrification project of
+                over 20 towns and communities in the State.
+              </span>
+
               <p className="leading-relaxed text-base font-bold text-light mb-2 text-gray-900">
                 POLITICAL POSITIONS SO FAR.{" "}
               </p>
@@ -105,12 +115,14 @@ export default function About() {
                   Hon. Commissioner, Ministry of Works and Housing, from 2001 -
                   2005.
                 </li>
-                <span>  Highlight: While serving in this capacity, the State Ministry of
-                Works, emerged the best in the Federation in Rural Road
-                Development. This visionary leadership and excellence attracted
-                development partners and donor agencies to the State to
-                contribute to its development.</span>
-              
+                <span>
+                  {" "}
+                  Highlight: While serving in this capacity, the State Ministry
+                  of Works, emerged the best in the Federation in Rural Road
+                  Development. This visionary leadership and excellence
+                  attracted development partners and donor agencies to the State
+                  to contribute to its development.
+                </span>
                 <li>
                   Hon. Minister of State, FEDERAL MINISTRY OF FINANCE, BUDGET &
                   NATIONAL PLANNING NIGERIA, from 2006 - 2007.
@@ -125,25 +137,30 @@ export default function About() {
                   Executive Chairman, Revenue Mobilization Allocation and Fiscal
                   Commission from 2010 – 2015.
                 </li>
-                <span> Highlight: As the board chairman, he single handedly gave
-                strength to the bill that local governments should be granted
-                financial autonomy through the payment of statutory allocations
-                from the Federation Account directly to their coffers. He also
-                recently advocated the amendment of the Revenue allocation Act
-                of 2004 to check the indiscriminate and illegal deductions from
-                the Special Fund Account Comprising the Development of Natural
-                Resources, Ecology and the stabilization accounts which are
-                being held in trust by the Federal government.</span>
-               
+                <span>
+                  {" "}
+                  Highlight: As the board chairman, he single handedly gave
+                  strength to the bill that local governments should be granted
+                  financial autonomy through the payment of statutory
+                  allocations from the Federation Account directly to their
+                  coffers. He also recently advocated the amendment of the
+                  Revenue allocation Act of 2004 to check the indiscriminate and
+                  illegal deductions from the Special Fund Account Comprising
+                  the Development of Natural Resources, Ecology and the
+                  stabilization accounts which are being held in trust by the
+                  Federal government.
+                </span>
                 <li>
                   Executive Chairman, Revenue Mobilization Allocation and Fiscal
                   Commission from 2019 – present
                 </li>
-                <span>  Highlight: He Championed the development and drafting of the new
-                revenue allocation formula captured the yearnings and
-                developmental aspirations of Nigerians, which was submitted to
-                federal Government on December,2021</span>
-              
+                <span>
+                  {" "}
+                  Highlight: He Championed the development and drafting of the
+                  new revenue allocation formula captured the yearnings and
+                  developmental aspirations of Nigerians, which was submitted to
+                  federal Government on December,2021
+                </span>
               </ol>
               <p className="leading-relaxed text-base font-bold text-light mb-2 text-gray-800">
                 Indeed, Engr. Elias N. Mbam, FNSE, is in the best position to
@@ -157,10 +174,9 @@ export default function About() {
               </p>
             </div>
           ) : (
-            `${aboutText.substring(0, 400) + " " + " ..."}`
+            <div className="text-gray-800"> {aboutText.substring(0, 400) + " " + " ..."}</div>
           )}
 
-        
           <div className="flex justify-center m-4">
             <div
               onClick={() => setReadMore(!readMore)}
