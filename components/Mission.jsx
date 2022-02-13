@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 export default function Mission() {
   return (
     <section className="relative mt-44 md:mx-auto" id="mission">
@@ -158,19 +157,19 @@ export default function Mission() {
               State. From Ikwo Noyo, Ezza Ezekuna, Mgbolizhia, Igboesa, Ehugbo,
               Ohanivo etc, he has built bridges of friendship that will
               translate to bridges of more unity and understanding among the
-              clans and people of Ebonyi state. In Izzi clan, he&apos;s one man that
-              has evidently played down the kindred differences we are faced
-              with and has demonstrated in practical actions his readiness to
-              send such a devil induced difference to its early grave and
+              clans and people of Ebonyi state. In Izzi clan, he&apos;s one man
+              that has evidently played down the kindred differences we are
+              faced with and has demonstrated in practical actions his readiness
+              to send such a devil induced difference to its early grave and
               untimely death. For the records and to substantiate the position
               above, Engr. Chief Mbam appointed an Igbojima his SA in his first
               tenure, and in this his second tenure he appointed an Unwuera his
               SA. Currently, he has given an Igbojima a sensitive appointment as
               his Chief Press Secretary. In all these, he has demonstrated
-              clearly beyond any doubt that he&apos;ll treat all according to one&apos;s
-              merit and not based on kindred, when this happens, the differences
-              will surely die a natural death. Ebonyi needs a man of Engr Mbam&apos;s
-              experience, pedigree and integrity come 2023.
+              clearly beyond any doubt that he&apos;ll treat all according to
+              one&apos;s merit and not based on kindred, when this happens, the
+              differences will surely die a natural death. Ebonyi needs a man of
+              Engr Mbam&apos;s experience, pedigree and integrity come 2023.
             </p>
           </div>
         </div>
