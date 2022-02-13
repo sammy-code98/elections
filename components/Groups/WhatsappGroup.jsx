@@ -2,7 +2,7 @@ import { location } from "./state-data";
 import Link from "next/link";
 export default function WhatsappGroup() {
   return (
-    <div className="mt-44">
+    <div className="mt-24">
       <div className="text-center text-gray-800 text-3xl">
         Join our Whatsapp Group
       </div>
