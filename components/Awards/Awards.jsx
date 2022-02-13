@@ -1,7 +1,7 @@
 import ProgressLine from "./ProgressLine";
 export default function Awards() {
   return (
-    <div className="mt-44">
+    <div className="mt-24 md:32">
       <div className="text-3xl text-center text-gray-800">Recent Awards</div>
       <div className="grid  grid-cols-1rid md:grid-cols-3 md:gap-6  md:px-32 mt-12 px-4">
         <div className="m-2">

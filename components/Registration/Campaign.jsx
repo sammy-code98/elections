@@ -42,7 +42,7 @@ export default function AmbassadorRegister() {
           </div>
         </div>
       </div>
-      <div className="order-first xl:order-last">
+      <div className="order-first xl:order-last mt-6">
         <Image
           src="/ambassador.svg"
           alt="Student Ambassador Image"

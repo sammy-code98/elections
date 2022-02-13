@@ -1,6 +1,6 @@
 export default function Mission() {
   return (
-    <section className="relative mt-44 md:mx-auto" id="mission">
+    <section className="relative mt-24 md:mt-32 md:mx-auto" id="mission">
       <div className="text-center text-sm text-gray-500 ">
         Why Engr. Chief Elias Mbam Should be the Choice of Ebonyi People Come
         2023.{" "}
