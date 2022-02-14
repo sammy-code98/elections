@@ -1,12 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  FaFacebook,
-  FaTwitter,
-  FaLinkedin,
-  FaGooglePlusG,
-} from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -17,26 +12,31 @@ function Footer() {
       <div className="flex justify-center space-x-14  mt-4">
         <Link href="https://www.facebook.com/Mbamelias2023" passHref>
           <a target="_blank">
-          <FaFacebook
-            className="cursor-pointer  text-gray-500  hover:text-sky-500"
-            style={{ fontSize: "1.5em" }}
-          />
+            <FaFacebook
+              className="cursor-pointer  text-gray-500  hover:text-sky-500"
+              style={{ fontSize: "1.5em" }}
+            />
           </a>
-         
         </Link>
 
-        <FaTwitter
-          className="cursor-pointer text-gray-500  hover:text-cyan-400"
-          style={{ fontSize: "1.5em" }}
-        />
-        <FaGooglePlusG
-          className="cursor-pointer text-gray-500 hover:text-red-500"
-          style={{ fontSize: "1.5em" }}
-        />
-        <FaLinkedin
-          className="cursor-pointer text-gray-500 hover:text-blue-400 "
-          style={{ fontSize: "1.5em" }}
-        />
+        <Link href="https://twitter.com/MElias2023?s=09" passHref>
+          <a target="_blank">
+            {" "}
+            <FaTwitter
+              className="cursor-pointer text-gray-500  hover:text-cyan-400"
+              style={{ fontSize: "1.5em" }}
+            />
+          </a>
+        </Link>
+        <Link href="https://www.instagram.com/mbamelias2023/" passHref>
+          <a target="_blank">
+            {" "}
+            <FaInstagram
+              className="cursor-pointer text-gray-500  hover:text-rose-700"
+              style={{ fontSize: "1.5em" }}
+            />
+          </a>
+        </Link>
       </div>
     </footer>
   );
