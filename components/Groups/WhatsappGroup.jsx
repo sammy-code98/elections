@@ -14,7 +14,7 @@ export default function WhatsappGroup() {
         {location.map((locate) => (
           <button
             key={locate.id}
-            className="hover:bg-green-600  hover:text-white text-green-600 p-2 rounded-md shadow-md  cursor-pointer focus:outline-none"
+            className="hover:bg-green-600  hover:text-white text-green-600 p-2 rounded-md shadow-sm  cursor-pointer focus:outline-none"
           >
             <Link href={`https://chat.whatsapp.com/${locate.link}`}>
               <a target="_blank">{locate.name}</a>
