@@ -11,7 +11,7 @@ export default function Mission() {
       </div>
 
       <div className="flex flex-col  mt-4 md:px-32 pt-4">
-        <div className="collapse w-full bg-green-500 rounded-box shadow-md mb-4 collapse-arrow">
+        <div className="collapse w-full bg-green-500 rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-white font-medium">
             A man of due process{" "}
@@ -38,7 +38,7 @@ export default function Mission() {
           </div>
         </div>
 
-        <div className="collapse w-full bg-white rounded-box shadow-md mb-4 collapse-arrow">
+        <div className="collapse w-full bg-white rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-green-500 font-medium">
             Very well experienced{" "}
@@ -63,7 +63,7 @@ export default function Mission() {
           </div>
         </div>
 
-        <div className="collapse w-full bg-green-500 rounded-box shadow-md mb-4 collapse-arrow">
+        <div className="collapse w-full bg-green-500 rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-white font-medium">
             Very Principled{" "}
@@ -87,7 +87,7 @@ export default function Mission() {
             </p>
           </div>
         </div>
-        <div className="collapse w-full bg-white rounded-box shadow-md mb-4 collapse-arrow">
+        <div className="collapse w-full bg-white rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-green-500 font-medium">
             He&apos;s selfless to the core
@@ -114,7 +114,7 @@ export default function Mission() {
           </div>
         </div>
 
-        <div className="collapse w-full bg-green-500 rounded-box shadow-md mb-4 collapse-arrow">
+        <div className="collapse w-full bg-green-500 rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-white font-medium">
             Will Diversify Natural Resources{" "}
@@ -145,7 +145,7 @@ export default function Mission() {
           </div>
         </div>
 
-        <div className="collapse w-full bg-white rounded-box shadow-md mb-4 collapse-arrow">
+        <div className="collapse w-full bg-white rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-green-500 font-medium">
             He&apos;s a Symbol of Unity
