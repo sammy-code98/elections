@@ -14,8 +14,8 @@ export default function Banner() {
       >
         <div className="text-5xl sm:text-5xl md:text-7xl mt-24 text-left md:mt-72 xl:mt-72 p-3 text-white ">
           <div>Mbam</div>
-          <div>Elias</div>
-          <div>Network</div>
+          <div>Support</div>
+          <div>Group</div>
         </div>
       </div>
 
