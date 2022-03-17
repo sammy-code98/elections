@@ -33,7 +33,7 @@ The servant leader we need come 2023."
         />
         <meta
           property="og:image"
-          content="https://github.com/sammy-code98/elections/blob/d578aa02e8f787864d6e209a414cd7a6e13b88b6/public/seo.jpeg"
+          content="https://github.com/sammy-code98/elections/blob/main/public/seo.jpeg?raw=true"
         />
 
         {/* <!-- Twitter --> */}
@@ -51,7 +51,7 @@ The servant leader we need come 2023."
         />
         <meta
           property="twitter:image"
-          content="https://github.com/sammy-code98/elections/blob/d578aa02e8f787864d6e209a414cd7a6e13b88b6/public/seo.jpeg"
+          content="https://github.com/sammy-code98/elections/blob/main/public/seo.jpeg?raw=true"
         />
       </Head>
       <Navbar />
