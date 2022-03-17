@@ -74,7 +74,7 @@ function Ambassador() {
     <div>
       <form ref={form} onSubmit={handleSubmit(onSubmit)}>
         <div className="text-center text-xl text-gray-500 font-bold">
-          Become a MEN Ambassador
+          Become a MSG Ambassador
         </div>
 
         <div className="bg-gray-lighter shadow-lg h-full rounded-md w-full flex flex-col-1">

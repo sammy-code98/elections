@@ -6,7 +6,7 @@ export default function Mission() {
         2023.{" "}
       </div>
       <div className="text-center text-gray-800 text-xl mt-2">
-        Mbam Elias Network Governorship Campaign Support Committee ~ Mission
+        Mbam Support Group, Governorship Campaign  Committee ~ Mission
         Statement
       </div>
 

@@ -12,7 +12,7 @@ export default function Navbar() {
         <Link href="/">
           <a className="inline-flex  items-center p-2 mr-4">
             <span className="text-xl text-green-600 font-bold tracking-wide">
-              MEN2023
+              MSG2023
             </span>
           </a>
         </Link>

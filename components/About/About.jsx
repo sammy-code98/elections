@@ -7,15 +7,15 @@ export default function About() {
 
   return (
     <section
-      className="grid grid-cols-1 md:grid-cols-2 mt-24 md:mt-32 md:mx-auto justify-items-center"
+      className="grid grid-cols-1  md:grid-cols-2  md:gap-4 md:px-12 mt-24 md:mt-32 md:mx-auto justify-items-center"
       id="about"
     >
       <div>
         <Image
-          src="/men.jpg"
+          src="/msg.jpeg"
           alt="About Image"
           width={500}
-          height={300}
+          height={500}
           className="rounded"
         />
       </div>
@@ -174,7 +174,7 @@ export default function About() {
               </p>
             </div>
           ) : (
-            <div className="text-gray-800"> {aboutText.substring(0, 400) + " " + " ..."}</div>
+            <div className="text-gray-800"> {aboutText.substring(0, 1050) + " " + " ..."}</div>
           )}
 
           <div className="flex justify-center m-4">

@@ -6,12 +6,13 @@ export default function Awards() {
       <div className="grid  grid-cols-1rid md:grid-cols-3 md:gap-6  md:px-32 mt-12 px-4">
         <div className="m-2">
           <span className="text-base text-gray-800 font-bold">
-            Award for Demystifying Covid-19 Politics (2020)
+          Award For Prudent Financial Resource Management.
+
           </span>
           <ProgressLine
             visualParts={[
               {
-                percentage: "30%",
+                percentage: "100%",
                 color: "blue",
               },
             ]}
@@ -19,7 +20,7 @@ export default function Awards() {
         </div>
         <div className="m-2">
           <span className="text-base text-gray-800 font-bold">
-            Best Governor Award (2019)
+          Award for Demystifying Covid-19 Politics (2020)
           </span>
           <ProgressLine
             visualParts={[
