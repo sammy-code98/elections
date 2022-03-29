@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import naijaXbyState from "naija-xbystate";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 const schema = yup.object().shape({
@@ -27,7 +30,46 @@ export default function CampaignForm() {
 
   // submisiion
   const onSubmit = (data) => {
-    console.log(data);
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_vk16ywj",
+        "template_3utxs2l",
+        form.current,
+        "user_sGMmbwEi4RHCf1RNCLeP9"
+      )
+      .then(
+        (result) => {
+          // console.log(result.text);
+          if (result.status === 200) {
+            toast.success(
+              "Thank you for reaching out, we will get back to you soon",
+              {
+                position: "top-center",
+                autoClose: 9000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              }
+            );
+          }
+        },
+        (error) => {
+          // console.log(error.text);
+          toast.error("Please try to fill the form and submit again", {
+            position: "top-center",
+            autoClose: 9000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+        }
+      );
     reset();
   };
   const lgas = naijaXbyState.lgas("ebonyi");
