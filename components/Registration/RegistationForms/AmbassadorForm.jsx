@@ -30,7 +30,7 @@ function Ambassador() {
 
     emailjs
       .sendForm(
-        "service_0tnutqc",
+        "service_vk16ywj",
         "template_3utxs2l",
         form.current,
         "user_sGMmbwEi4RHCf1RNCLeP9"
@@ -55,7 +55,7 @@ function Ambassador() {
         },
         (error) => {
           // console.log(error.text);
-          toast.error("Please try to full the form and submit again", {
+          toast.error("Please try to fill the form and submit again", {
             position: "top-center",
             autoClose: 9000,
             hideProgressBar: false,
@@ -66,7 +66,6 @@ function Ambassador() {
           });
         }
       );
-    console.log(data);
     reset();
   };
   const lgas = naijaXbyState.lgas("ebonyi");
