@@ -1,4 +1,3 @@
-// import Link from "next/link";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
 export default function Navbar() {

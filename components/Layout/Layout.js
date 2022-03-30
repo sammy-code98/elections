@@ -6,12 +6,9 @@ export default function Layout({ children }) {
   return (
     <div className="bg-gray-50">
       <Head>
-        {/* <title>MSG2023</title>
-        <meta name="description" content="Engr. Elias Mbam Nwalem Support Group" />
-        <link rel="icon" href="/favicon.ico" /> */}
-        {/* Primary Meta Tags  */}
+       
         {/* <!-- Primary Meta Tags --> */}
-        <title>Engr Mbam Elias Support Group</title>
+        <title>Engr Mbam Elias Support Group || MSG2023</title>
         <meta name="title" content="Engr Mbam Elias Support Group" />
         <meta
           name="description"
@@ -23,7 +20,7 @@ The servant leader we need come 2023."
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://msg2023.vercel.app/" />
+        <meta property="og:url" content="https://msg2023.org" />
         <meta property="og:title" content="Engr Mbam Elias Support Group" />
         <meta
           property="og:description"
@@ -38,7 +35,7 @@ The servant leader we need come 2023."
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://msg2023.vercel.app/" />
+        <meta property="twitter:url" content="https://msg2023.org" />
         <meta
           property="twitter:title"
           content="Engr Mbam Elias Support Group"
@@ -46,8 +43,8 @@ The servant leader we need come 2023."
         <meta
           property="twitter:description"
           content="Engr. Mbam Support Group Governorship Campaign Committee.
-The messiah the good people of ebonyi need.
-The servant leader we need come 2023."
+                 The messiah the good people of ebonyi need.
+                  The servant leader we need come 2023."
         />
         <meta
           property="twitter:image"
