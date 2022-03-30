@@ -12,5 +12,4 @@ export const location = [
   { id: 11, name: "Ohaozara" , link:'FSxO9t0fVNJ5ksJB4aw8bo'},
   { id: 12, name: "Ohaukwu", link: 'Ijz0H0A5hfdJLZai0U8TXQ' },
   { id: 13, name: "Onicha" , link:'BWN9rNR9oCq4ZgfexvyB9H' },
- 
 ];

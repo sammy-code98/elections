@@ -5,7 +5,7 @@ export default function AmbassadorRegister() {
   return (
     <div className="grid  grid-cols-1 md:grid-cols-2 mt-4 md:mx-auto items-center md:px-24">
       <div>
-        <p className="text-center  text-lg text-gray-400 md:text-left xl:text-left">
+        <p className="text-center text-lg text-gray-400 md:text-left xl:text-left">
           Register your
         </p>
         <p className="md:text-left text-gray-800 text-center text-3xl xl:text-left">
