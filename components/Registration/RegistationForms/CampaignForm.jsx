@@ -20,7 +20,7 @@ const schema = yup.object().shape({
   members: yup.string().required("Members is required*"),
 });
 export default function CampaignForm() {
-  const form = useForm();
+  const form = useRef();
   const {
     register,
     handleSubmit,
