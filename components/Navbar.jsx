@@ -8,12 +8,19 @@ export default function Navbar() {
   return (
     <div>
       <nav className="flex  items-center flex-wrap bg-gray-50 p-3 md:px-24 w-full fixed z-10">
-        <Link href="/">
-          <a className="inline-flex  items-center p-2 mr-4">
-            <span className="text-xl text-green-600 font-bold tracking-wide">
-              MSG2023
-            </span>
-          </a>
+        <Link
+          to="home"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          isDynamic={true}
+          className="inline-flex  items-center p-2 mr-4 cursor-pointer"
+        >
+          <span className="text-xl text-green-600 font-bold tracking-wide">
+            MSG2023
+          </span>
         </Link>
         {/* hamburger button */}
         <button
