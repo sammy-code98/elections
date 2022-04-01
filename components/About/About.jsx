@@ -12,6 +12,7 @@ export default function About() {
     >
       <div>
         <Image
+          loading="lazy"
           src="/msg.jpeg"
           alt="About Image"
           width={500}
@@ -174,7 +175,10 @@ export default function About() {
               </p>
             </div>
           ) : (
-            <div className="text-gray-800"> {aboutText.substring(0, 1050) + " " + " ..."}</div>
+            <div className="text-gray-800">
+              {" "}
+              {aboutText.substring(0, 1050) + " " + " ..."}
+            </div>
           )}
 
           <div className="flex justify-center m-4">

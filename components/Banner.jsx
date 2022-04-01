@@ -9,9 +9,10 @@ export default function Banner() {
         maxHeight: "1000px",
       }}
     >
-      <Snowfall snowflakeCount={200}/>
+      <Snowfall snowflakeCount={200} />
 
       <img
+        loading="lazy"
         src="/men.jpg"
         alt="banner"
         className="w-full h-full mt-20 xl:mt-0 md:mt-0"
