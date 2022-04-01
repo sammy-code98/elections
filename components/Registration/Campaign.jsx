@@ -44,6 +44,7 @@ export default function AmbassadorRegister() {
       </div>
       <div className="order-first xl:order-last mt-6">
         <Image
+          loading="lazy"
           src="/ambassador.svg"
           alt="Student Ambassador Image"
           width={500}

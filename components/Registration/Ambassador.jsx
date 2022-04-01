@@ -7,6 +7,7 @@ export default function StudentRegister() {
     <div className="grid  grid-cols-1 md:grid-cols-2 mt-4 md:mx-auto items-center md:px-24">
       <div>
         <Image
+          loading="lazy"
           src="/student.svg"
           alt="Student Ambassador Image"
           width={500}
