@@ -60,7 +60,7 @@ function Form() {
             });
         }
       );
-    console.log(data);
+    // console.log(data);
     reset();
   };
 
