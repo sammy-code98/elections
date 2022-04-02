@@ -31,147 +31,120 @@ export default function About() {
               id="about"
             >
               <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
-                We, The Ebonyians have found a man of quality who has brought
-                his zeal for selfless service to bear on national life and who
-                is a public servant with excellent idea on how to achieve a set
-                goal. A distinguished patriotic Nigerian, who in his public and
-                private life will remain consistent in the pursuit of excellence
-                and the achievement of a national goal of genuine greatness,
-                economic prosperity and tranquility devoid of pecuniary gains.
-                That man is Engineer Elias Nwalem Mbam, the chairman of the
-                Nigeria&apos;s Revenue Mobilization Allocation and Fiscal
-                Commission (RMFAC). Engr. Elias N Mbam born on 2nd September,
-                1958 in Nwofe-Agbaje in izzi local govt. area of Ebonyi State.He
-                Attended Hartford State Technical College in the U.S. from 1977
-                – 1979 for Associate Degree before moving to University of
-                Nigeria, Nsukka where he bagged a bachelor’s degree in
-                electrical engineering in 1984. He started accumulating his rich
-                profiles with high records of political, working, and leadership
-                experience among other people we are expecting to succeed
-                Governor David Umahi in 2023.
+                Engr. Elias Nwalem Mbam was born on the 2nd of September, 1958
+                at Ndioga-Agbaja, Izzi Local Government Area of Ebonyi State.
               </p>
-              <p className="leading-relaxed text-base font-bold text-light mb-2 text-gray-900">
-                POSITIONS OCCUPIED IN THE OLD ANAMBRA STATE GOVERNMENT.
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                He had his primary education at Agbaja Central School (1963 –
+                1971) and his secondary education at Abakiliki High School (1972
+                – 1976). He obtained an Associate Science degree in Electrical
+                Engineering Technology from Hartford State Technical College,
+                Connecticut, USA in 1979 and a Bachelor of Engineering
+                (Electrical/Electronics) from the University of Nigeria, Nsukka
+                in 1984. He served in 1984/1985 in the present Ekiti state for
+                his NYSC where he worked at the Department of Technical
+                Education, College of Education, Ikere -Ekiti.
               </p>
-              <ol className="list-decimal leading-relaxed text-base text-light mb-2 text-gray-800">
-                <li>
-                  Executive Engineer, Anambra State Ministry of Works and
-                  Transport 1987 - 1989.
-                </li>
-                <li>
-                  Project Engineer, Anambra State Rural Electrification Board
-                  1989 - 1991.
-                </li>
-              </ol>
-              <p className="leading-relaxed text-base font-bold text-light mb-2 text-gray-900">
-                POSITIONS OCCUPIED IN THE OLD ENUGU STATE GOVERNMENT.
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr. Mbam is a Fellow of the Nigerian Society of Engineers
+                (FNSE) and a registered Member of the Council for the Regulation
+                of Engineering in Nigeria (COREN). He is also a recipient of the
+                Nigeria Society of Engineers’ Presidential Distinguished Service
+                Award (2007) and a Fellow of the Institute of Credit
+                Administration (FICA).
               </p>
-              <ol className="list-decimal leading-relaxed text-base text-light mb-2 text-gray-800">
-                <li>
-                  Project Engineer, Enugu State Rural Electrification Board 1991
-                  - 1995.
-                </li>
-                <li>
-                  General Manager, Enugu State Housing Development Corporation
-                  1995 – 1996.
-                </li>
-              </ol>
-              <span>
-                Highlight: Where he developed the Phase 6 of Trans Ekulu Housing
-                Estate, Enugu.
-              </span>
-
-              <p className="leading-relaxed text-base font-bold text-light mb-2 text-gray-900">
-                POSITIONS OCCUPIED IN EBONYI STATE GOVERNMENT.{" "}
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr. Elias Nwalem Mbam has risen through the ranks of civil
+                service and has held various positions of responsibility. After
+                his NYSC, he was employed as an executive engineer at the
+                Ministry of Works and Transport in old Anambra State. He was the
+                project engineer at the Anambra State Rural Electrification
+                Board (REB) (1989 – 1991), which provided electricity supply to
+                over 110 towns /communities; Project Engineer at Enugu State
+                Rural Electrification Board (1991 – 1995); and General Manager,
+                Enugu State Housing Development Corporation (1995-1996) where he
+                developed Phase 6 of Trans Ekulu Housing Estate, Enugu. In 1996,
+                after the creation of Ebonyi State, he was appointed the pioneer
+                General Manager, Ebonyi State Housing Development Corporation,
+                Abakiliki, where he superintended over the development of
+                official residential houses and offices for the take-off of the
+                new state government. Engr. Mbam served as the General Manager
+                for the Ebonyi State Rural Electrification Board, Abakiliki
+                (1998 – 1999) and executed the electrification project of over
+                twenty (20) towns and communities in the state.
               </p>
-              <ol className="list-decimal leading-relaxed text-base text-light mb-2 text-gray-800">
-                <li>
-                  Pioneer General Manager, Ebonyi State Housing Development
-                  Corporation from 1996 – 1998
-                </li>
-                Highlight: This position came at the creation of Ebonyi State in
-                1996. Elias Mbam midwifed the development of both official,
-                residential houses and offices for the smooth take-off of the
-                new Government.
-                <li>
-                  General Manager, Ebonyi State Rural Electrification Board,
-                  from 1998 - 1999.
-                </li>
-              </ol>
-              <span>
-                {" "}
-                Highlight: There, he executed the electrification project of
-                over 20 towns and communities in the State.
-              </span>
-
-              <p className="leading-relaxed text-base font-bold text-light mb-2 text-gray-900">
-                POLITICAL POSITIONS SO FAR.{" "}
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr. Mbam was the Commissioner of Works, Lands, Housing and
+                Transport in Ebonyi state (1999 – 2001). He also served as
+                Commissioner of Works and Housing (2001 – 2005). In his time as
+                Commissioner, Ebonyi State through the State Ministry of Works
+                and Transport emerged the winner as the best state in the
+                federation in rural roads development; this achievement
+                attracted development partners and donor agencies to contribute
+                to the state’s development. Also, under his leadership at the
+                Ministry of Works and Transport, he facilitated and the state
+                benefited from the Community-Based World Bank-Assisted Urban
+                Development Project.
               </p>
-              <ol className="list-decimal leading-relaxed text-base text-light mb-2 text-gray-800">
-                <li>
-                  Hon. Commissioner, Ministry of Works, Lands, Housing and
-                  Transport, from 1999 - 2001.
-                </li>
-                <li>
-                  Hon. Commissioner, Ministry of Works and Housing, from 2001 -
-                  2005.
-                </li>
-                <span>
-                  {" "}
-                  Highlight: While serving in this capacity, the State Ministry
-                  of Works, emerged the best in the Federation in Rural Road
-                  Development. This visionary leadership and excellence
-                  attracted development partners and donor agencies to the State
-                  to contribute to its development.
-                </span>
-                <li>
-                  Hon. Minister of State, FEDERAL MINISTRY OF FINANCE, BUDGET &
-                  NATIONAL PLANNING NIGERIA, from 2006 - 2007.
-                </li>
-                Highlight: He instituted radical reforms in the Nigeria Customs
-                Services (NCS) and Federal Inland Revenue Services (FIRS)
-                respectively. Enthroned transparency and accountability via full
-                disclosure of the activities of Federation Allocation Account
-                Committee (FAAC) including allocation of Revenue to the 3-Tiers
-                of Government.
-                <li>
-                  Executive Chairman, Revenue Mobilization Allocation and Fiscal
-                  Commission from 2010 – 2015.
-                </li>
-                <span>
-                  {" "}
-                  Highlight: As the board chairman, he single handedly gave
-                  strength to the bill that local governments should be granted
-                  financial autonomy through the payment of statutory
-                  allocations from the Federation Account directly to their
-                  coffers. He also recently advocated the amendment of the
-                  Revenue allocation Act of 2004 to check the indiscriminate and
-                  illegal deductions from the Special Fund Account Comprising
-                  the Development of Natural Resources, Ecology and the
-                  stabilization accounts which are being held in trust by the
-                  Federal government.
-                </span>
-                <li>
-                  Executive Chairman, Revenue Mobilization Allocation and Fiscal
-                  Commission from 2019 – present
-                </li>
-                <span>
-                  {" "}
-                  Highlight: He Championed the development and drafting of the
-                  new revenue allocation formula captured the yearnings and
-                  developmental aspirations of Nigerians, which was submitted to
-                  federal Government on December,2021
-                </span>
-              </ol>
-              <p className="leading-relaxed text-base font-bold text-light mb-2 text-gray-800">
-                Indeed, Engr. Elias N. Mbam, FNSE, is in the best position to
-                put the round peg in a round hole for Ebonyians considering his
-                wealth of experience in leadership, civil service and politics.
-                He is specifically reserved; to restore peace among Ebonyians,
-                to focus on the well-being of Ebonyians , to pay quality
-                attention to educational sector, to understand the welfare of
-                the civil servants, engineer the maintenance and development of
-                the industrial sector of Ebonyi State.
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr. Mbam served under Chief Olusegun Obasanjo as the
+                Honourable Minister of State for Finance in the Federal
+                Executive Council in 2006. Here, he contributed immensely to the
+                institution of radical reforms in the Nigeria Customs Service
+                (NCS) and Federal Inland Revenue Service (FIRS). He instituted
+                transparency and accountability through full disclosure of the
+                activities of Federation Allocation Account Committee (FAAC),
+                including allocation of revenue to the three tiers of
+                government, while chairing the Committee.
+              </p>
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr. Mbam was appointed Chairman of Revenue Mobilisation
+                Allocation and Fiscal Commission (2010 – 2015). As chairman of
+                RMAFC, he successfully supervised the conduct of the review of
+                Revenue Allocation Formular and Remuneration Package for
+                Political, Public and Judicial Office Holders.
+              </p>
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                In recognition of his immense contribution to the development of
+                Izzi Land and Ebonyi State in general, Engr. Mbam was given the
+                traditional title of Nwadiohare of Izzi Land. Engr. Mbam paid
+                school fees and other incidentals to indigent students, provided
+                interest-free loans to the under-privileged and Agric inputs to
+                rural farmers, especially women and the youths.
+              </p>
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                In recognition of his philanthropy, the Rotary Club of Abakiliki
+                conferred on him the Distinguished Community Service Award. The
+                Ebonyi State Government also honoured him at a grand reception
+                in Abakiliki in 2011.
+              </p>
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr. Mbam has served as Chairman or member in various
+                committees including: the Technical Committee for the Evaluation
+                of the Technical Proposal for Consultancy Services for the
+                Anambra State African Development Bank (ADB) Assisted Rural
+                Water Supply Project (member), Ebonyi State Committee on
+                Ecological Problems (chairman), Ebonyi State Finance and General
+                Purposes Committee (chairman), and Program Steering Committee,
+                Community Based World Bank Assisted Urban Development Project
+                (chairman).
+              </p>
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr. Mbam was a director at Zion Engineering Ltd.; director at
+                Ndiagu Community Bank Abakaliki; and Chairman, Elymay Ltd.
+              </p>
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                After his first tenure of five years which ended in 2015, Engr.
+                Mbam was reappointed by President Muhammadu Buhari for a second
+                tenure as the Chairman, Revenue, Mobilization, Allocation and
+                Fiscal Commission (2019 – date).
+              </p>
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr Mbam is happily married with worthy children.
+              </p>
+              <p className="leading-relaxed text-base text-light mb-2 text-gray-800">
+                Engr Mbam enjoys travelling, listening to music, particularly
+                traditional / local music, and community service.
               </p>
             </div>
           ) : (
