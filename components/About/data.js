@@ -1,6 +1,5 @@
 export const aboutText = `
-We, The Ebonyians have found a man of quality who has brought his zeal for selfless service to bear on national life and who is a public servant with excellent idea on how to achieve a set goal. A distinguished patriotic Nigerian, who in his public and private life will remain consistent in the pursuit of excellence and the achievement of a national goal of genuine greatness, economic prosperity and tranquility devoid of pecuniary gains.
- That man is Engineer Elias Nwalem Mbam, the chairman of the Nigeria's Revenue Mobilization Allocation and Fiscal Commission (RMFAC).
-Engr. Elias N Mbam born on 2nd September, 1958 in Nwofe-Agbaje in izzi local govt. area of Ebonyi State.He Attended Hartford State Technical College in the U.S. from 1977 – 1979 for Associate Degree before moving to University of Nigeria, Nsukka where he bagged a bachelor’s degree in electrical engineering in 1984. He started accumulating his rich profiles with high records of political, working, and leadership experience among other people we are expecting to succeed Governor David Umahi in 2023.
+Engr. Elias Nwalem Mbam was born on the 2nd of September, 1958 at Ndioga-Agbaja, Izzi Local Government Area of Ebonyi State.
+He had his primary education at Agbaja Central School (1963 – 1971) and his secondary education at Abakiliki High School (1972 – 1976). He obtained an Associate Science degree in Electrical Engineering Technology from Hartford State Technical College, Connecticut, USA in 1979 and a Bachelor of Engineering (Electrical/Electronics) from the University of Nigeria, Nsukka in 1984. He served in 1984/1985 in the present Ekiti state for his NYSC where he worked at the Department of Technical Education, College of Education, Ikere -Ekiti.
 
 `;
