@@ -12,12 +12,12 @@ export default function About() {
     >
       <div>
         <Image
-          loading="lazy"
           src="/msg.jpeg"
           alt="About Image"
           width={500}
           height={500}
           className="rounded"
+          priority
         />
       </div>
       <div>

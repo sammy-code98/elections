@@ -66,6 +66,18 @@ export default function Layout({ children }) {
         crossorigin="anonymous"
 
       />
+
+      {/* autoads */}
+      <Script id="auto-ads"
+       data-ad-client="ca-pub-4650699955710485"
+       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?"
+       async
+       crossorigin="anonymous"
+       onError={(e) => {
+        console.error("Script failed to load", e);
+      }}
+      strategy="afterInteractive"
+       />
       <Navbar />
       <div className="">{children}</div>
       <Footer />
